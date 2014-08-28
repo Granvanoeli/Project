@@ -1,0 +1,51 @@
+\contentsline {chapter}{\numberline {1}Introduction}{7}
+\contentsline {section}{\numberline {1.1}Overview}{7}
+\contentsline {subsection}{\numberline {1.1.1}Problem statement}{7}
+\contentsline {subsection}{\numberline {1.1.2}The metaphore}{7}
+\contentsline {chapter}{\numberline {2}Survey}{8}
+\contentsline {section}{\numberline {2.1}Background theories }{8}
+\contentsline {subsection}{\numberline {2.1.1}Optimal Foraging Theory}{8}
+\contentsline {subsection}{\numberline {2.1.2}Information Foraging Theory}{9}
+\contentsline {section}{\numberline {2.2}Previous studies}{9}
+\contentsline {subsection}{\numberline {2.2.1}Searching behaviour}{9}
+\contentsline {subsection}{\numberline {2.2.2}Gamification}{9}
+\contentsline {chapter}{\numberline {3}Design}{10}
+\contentsline {section}{\numberline {3.1}Site Map}{10}
+\contentsline {subsection}{\numberline {3.1.1}Home, Registreation and Login}{11}
+\contentsline {subsection}{\numberline {3.1.2}World Map}{12}
+\contentsline {subsection}{\numberline {3.1.3}Game Screen}{13}
+\contentsline {subsection}{\numberline {3.1.4}General Store}{14}
+\contentsline {subsection}{\numberline {3.1.5}Leaderboards}{15}
+\contentsline {subsection}{\numberline {3.1.6}Tutorial}{16}
+\contentsline {subsection}{\numberline {3.1.7}Achievements}{16}
+\contentsline {subsection}{\numberline {3.1.8}About Page}{18}
+\contentsline {section}{\numberline {3.2}Walkthrough}{18}
+\contentsline {section}{\numberline {3.3}System Architechture}{21}
+\contentsline {section}{\numberline {3.4}ER Model}{22}
+\contentsline {section}{\numberline {3.5}Graphics}{23}
+\contentsline {chapter}{\numberline {4}Impementation}{24}
+\contentsline {section}{\numberline {4.1}Development Methods}{24}
+\contentsline {section}{\numberline {4.2}Heuristic Evaluation}{24}
+\contentsline {section}{\numberline {4.3}Testing}{24}
+\contentsline {subsection}{\numberline {4.3.1}Unit Testing}{24}
+\contentsline {subsection}{\numberline {4.3.2}Live Testing}{24}
+\contentsline {section}{\numberline {4.4}Technologies}{24}
+\contentsline {subsection}{\numberline {4.4.1}Django}{24}
+\contentsline {subsection}{\numberline {4.4.2}Python}{24}
+\contentsline {subsection}{\numberline {4.4.3}HTML5}{24}
+\contentsline {subsection}{\numberline {4.4.4}CSS3}{24}
+\contentsline {paragraph}{Animate.css}{24}
+\contentsline {subsection}{\numberline {4.4.5}Twitter Bootstrap}{25}
+\contentsline {subsection}{\numberline {4.4.6}Javascript and JQuery}{25}
+\contentsline {paragraph}{Trip.js}{25}
+\contentsline {paragraph}{Animatenumbers.js}{25}
+\contentsline {subsection}{\numberline {4.4.7}AJAX}{25}
+\contentsline {subsection}{\numberline {4.4.8}Code}{25}
+\contentsline {chapter}{\numberline {5}Results and Data}{26}
+\contentsline {section}{\numberline {5.1}Data Logged}{26}
+\contentsline {section}{\numberline {5.2}Data Analysis}{26}
+\contentsline {section}{\numberline {5.3}Results}{26}
+\contentsline {section}{\numberline {5.4}Reflection}{26}
+\contentsline {chapter}{\numberline {A}First appendix}{27}
+\contentsline {section}{\numberline {A.1}Section of first appendix}{27}
+\contentsline {chapter}{\numberline {B}Second appendix}{28}

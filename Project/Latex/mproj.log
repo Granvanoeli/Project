@@ -1,0 +1,740 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.27)  27 AUG 2014 21:25
+entering extended mode
+**//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Latex/m
+proj.tex
+
+(//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Latex/mp
+roj.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+
+(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\Project\Project\Latex\mp
+roj.cls
+Document Class: mproj 2009/01/09 Colin Perkins <csp@dcs.gla.ac.uk>.2009/09/16 M
+odified by Tim Storer <tws@dcs.gla.ac.uk> to support non pdf modes.2011/02/15 M
+odified by Gregg Hamilton <hamiltgr@dcs.gla.ac.uk> for use in final year projec
+ts.2012/02/21 Modified by Gethin Norman <gethin.norman@glasgow.ac.uk> for use i
+n masters projects and proposals.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size11.clo"
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\caption\caption.sty"
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\caption\caption3.sty"
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen105
+\captionmargin@=\dimen106
+\captionwidth=\dimen107
+\caption@tempdima=\dimen108
+\caption@indent=\dimen109
+\caption@parindent=\dimen110
+\caption@hangindent=\dimen111
+)
+\c@ContinuedFloat=\count89
+)
+\c@subfigure=\count90
+\c@subtable=\count91
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+\c@KVtest=\count92
+\sf@farskip=\skip43
+\sf@captopadj=\dimen112
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\sf@top=\skip46
+\sf@bottom=\skip47
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\fancyvrb\fancyvrb.sty"
+Package: fancyvrb 2008/02/07
+
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz)
+\FV@CodeLineNo=\count93
+\FV@InFile=\read1
+\FV@TabBox=\box26
+\c@FancyVerbLine=\count94
+\FV@StepNumber=\count95
+\FV@OutFile=\write3
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\pdfpages\pdfpages.sty"
+Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count96
+\calc@Bcount=\count97
+\calc@Adimen=\dimen113
+\calc@Bdimen=\dimen114
+\calc@Askip=\skip48
+\calc@Bskip=\skip49
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count98
+\calc@Cskip=\skip50
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\eso-pic\eso-pic.sty"
+Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\pdfpages\pppdftex.def"
+File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box27
+\AM@toc@title=\toks15
+\c@AM@survey=\count99
+\AM@templatesizebox=\box28
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\subfloat\subfloat.sty"
+Package: subfloat 2003/08/21 version 2.14
+ Package `subfloat', Version 2.14 of 2003/08/21.
+
+Package subfloat Warning: Numbers of floats not counted:
+(subfloat)                If you use one of the counters subfloatfiguremax or
+(subfloat)                subfloattablemax you will get strange error messages
+(subfloat)                containing \c@subfloatfiguremax or
+(subfloat)                \c@subfloattablemax:
+(subfloat)                Please switch on countmax or remove the code using
+(subfloat)                the counter then..
+
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\floatrow\floatrow.sty"
+Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
+\c@float@type=\count100
+\float@exts=\toks16
+\float@box=\box29
+\@floatcapt=\box30
+Package floatrow Info: Modified float package code loaded on input line 455.
+Package floatrow Info: Modified rotfloat package code loaded on input line 473.
+
+\FR@everyfloat=\toks17
+\flrow@foot=\insert233
+\FB@wd=\dimen115
+\FBo@wd=\dimen116
+\FBc@wd=\dimen117
+\FBo@ht=\skip51
+\FBc@ht=\skip52
+\FBf@ht=\skip53
+\FBo@max=\skip54
+\FBc@max=\skip55
+\FBf@max=\skip56
+\c@FBl@b=\count101
+\floatbox@depth=\count102
+\c@FRobj=\count103
+\c@FRsobj=\count104
+\Xhsize=\skip57
+\sXhsize=\skip58
+\Zhsize=\skip59
+\sZhsize=\skip60
+\flrow@rowbox=\box31
+\FR@Zunitlength=\dimen118
+\c@FBcnt=\count105
+\FPOScnt=\count106
+\LTleft=\skip61
+\LTright=\skip62
+\LTleft=\skip63
+\LTright=\skip64
+\flrow@types=\toks18
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen119
+\WF@size=\dimen120
+\c@WF@wrappedlines=\count107
+\WF@box=\box32
+\WF@everypar=\toks19
+Package: wrapfig 2003/01/31  v 3.6
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\picinpar\picinpar.sty"
+Pictures in Paragraphs. Version 1.2a, July 13, 1993
+\br=\count108
+\bl=\count109
+\na=\count110
+\nb=\count111
+\tcdsav=\count112
+\tcl=\count113
+\tcd=\count114
+\tcn=\count115
+\cumtcl=\count116
+\cumpartcl=\count117
+\lftside=\dimen121
+\rtside=\dimen122
+\hpic=\dimen123
+\vpic=\dimen124
+\strutilg=\dimen125
+\picwd=\dimen126
+\topheight=\dimen127
+\ilg=\dimen128
+\lpic=\dimen129
+\lwindowsep=\dimen130
+\rwindowsep=\dimen131
+\cumpar=\dimen132
+\twa=\toks20
+\la=\toks21
+\ra=\toks22
+\ha=\toks23
+\pictoc=\toks24
+\rawtext=\box33
+\holder=\box34
+\windowbox=\box35
+\wartext=\box36
+\finaltext=\box37
+\aslice=\box38
+\bslice=\box39
+\wbox=\box40
+\wstrutbox=\box41
+\picbox=\box42
+\waslice=\box43
+\wbslice=\box44
+\fslice=\box45
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\fancyref\fancyref.sty"
+Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\varioref.sty"
+Package: varioref 2009/09/13 v1.4w package for extended references (FMi)
+\c@vrcnt=\count118
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\Project\Project\Latex\mp
+roj.aux
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for T1+phv on input line 34.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
+)
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\c
+ontext\base\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count119
+\scratchdimen=\dimen133
+\scratchbox=\box46
+\nofMPsegments=\count120
+\nofMParguments=\count121
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count122
+\MPscratchDim=\dimen134
+\MPnumerator=\count123
+\makeMPintoPDFobject=\count124
+\everyMPtoPDFconversion=\toks26
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: floatrow package is loaded.
+Package caption Info: picinpar package is loaded.
+Package caption Info: wrapfig package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\AtBeginShipoutBox=\box47
+
+("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
+atex\floatrow\fr-subfig.sty"
+Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
+\FBsc@max=\skip65
+\FBso@max=\skip66
+)
+<images/CompSci_colour.pdf, id=1, 340.27126pt x 49.18375pt>
+File: images/CompSci_colour.pdf Graphic file (type pdf)
+
+<use images/CompSci_colour.pdf>
+Package pdftex.def Info: images/CompSci_colour.pdf used on input line 40.
+(pdftex.def)             Requested size: 300.43684pt x 9.35004pt.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 40.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <20.74> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 40.
+ [1
+
+{C:/Users/2108535R.DCS.007/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <
+//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Latex/ima
+ges/CompSci_colour.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 44.
+ [1]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 50.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 50.
+ [1] [2]
+(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\Project\Project\Latex\mp
+roj.toc [3
+
+] [4])
+\tf@toc=\write4
+ [5]
+(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\Project\Project\Latex\mp
+roj.lof)
+\tf@lof=\write5
+ [6
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 66.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 69.
+[7
+
+]
+Chapter 2.
+[8
+
+] [9]
+Chapter 3.
+<images/nav.png, id=42, 1444.64719pt x 100.12407pt>
+File: images/nav.png Graphic file (type png)
+ <use images/nav.png>
+Package pdftex.def Info: images/nav.png used on input line 134.
+(pdftex.def)             Requested size: 432.26999pt x 29.95952pt.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 142.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+) [10
+
+ <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Latex/i
+mages/nav.png>]
+<images/homescreen.png, id=46, 1428.83812pt x 733.99219pt>
+File: images/homescreen.png Graphic file (type png)
+
+<use images/homescreen.png>
+Package pdftex.def Info: images/homescreen.png used on input line 160.
+(pdftex.def)             Requested size: 518.72266pt x 266.46574pt.
+
+<images/register.png, id=47, 571.38469pt x 621.07031pt>
+File: images/register.png Graphic file (type png)
+
+<use images/register.png>
+Package pdftex.def Info: images/register.png used on input line 169.
+(pdftex.def)             Requested size: 216.135pt x 234.92882pt.
+ [11 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Lat
+ex/images/homescreen.png>]
+<images/worldmap.png, id=52, 1445.4pt x 813.0375pt>
+File: images/worldmap.png Graphic file (type png)
+ <use images/worldmap.png>
+Package pdftex.def Info: images/worldmap.png used on input line 183.
+(pdftex.def)             Requested size: 518.72266pt x 291.77524pt.
+
+[12 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Late
+x/images/register.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/P
+roject/Project/Latex/images/worldmap.png>]
+<images/cali.png, id=56, 648.92438pt x 606.76688pt>
+File: images/cali.png Graphic file (type png)
+ <use images/cali.png>
+Package pdftex.def Info: images/cali.png used on input line 192.
+(pdftex.def)             Requested size: 172.90535pt x 161.67201pt.
+
+<images/mine.png, id=57, 1431.84938pt x 681.29532pt>
+File: images/mine.png Graphic file (type png)
+ <use images/mine.png>
+Package pdftex.def Info: images/mine.png used on input line 201.
+(pdftex.def)             Requested size: 518.72266pt x 246.81508pt.
+
+[13 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Late
+x/images/cali.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Proje
+ct/Project/Latex/images/mine.png>]
+<images/generalstore.png, id=61, 1428.83812pt x 730.98094pt>
+File: images/generalstore.png Graphic file (type png)
+
+<use images/generalstore.png>
+Package pdftex.def Info: images/generalstore.png used on input line 219.
+(pdftex.def)             Requested size: 518.72266pt x 265.37256pt.
+ [14 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Lat
+ex/images/generalstore.png>]
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 226.
+
+<images/leaderboards.png, id=65, 1427.3325pt x 738.50906pt>
+File: images/leaderboards.png Graphic file (type png)
+
+<use images/leaderboards.png>
+Package pdftex.def Info: images/leaderboards.png used on input line 233.
+(pdftex.def)             Requested size: 518.72266pt x 268.38725pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] <images/tutorial.png, id=70, 1429.59094pt x 691.83469pt>
+File: images/tutorial.png Graphic file (type png)
+
+<use images/tutorial.png>
+Package pdftex.def Info: images/tutorial.png used on input line 254.
+(pdftex.def)             Requested size: 518.72266pt x 251.03436pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/achievements.png, id=71, 1430.34375pt x 737.00343pt>
+File: images/achievements.png Graphic file (type png)
+
+<use images/achievements.png>
+Package pdftex.def Info: images/achievements.png used on input line 265.
+(pdftex.def)             Requested size: 518.72266pt x 267.27779pt.
+
+<images/awesome.png, id=72, 34.1275pt x 34.1275pt>
+File: images/awesome.png Graphic file (type png)
+ <use images/awesome.png>
+Package pdftex.def Info: images/awesome.png used on input line 276.
+(pdftex.def)             Requested size: 69.16107pt x 69.16556pt.
+
+<images/banana.png, id=74, 34.1275pt x 34.1275pt>
+File: images/banana.png Graphic file (type png)
+ <use images/banana.png>
+Package pdftex.def Info: images/banana.png used on input line 284.
+(pdftex.def)             Requested size: 69.16107pt x 69.16556pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Late
+x/images/leaderboards.png>] [17 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Do
+wnloads/Project/Project/Latex/images/tutorial.png> <//win4.ad.dcs.gla.ac.uk/it1
+3/homes/2108535r/Downloads/Project/Project/Latex/images/achievements.png>]
+File: images/worldmap.png Graphic file (type png)
+
+<use images/worldmap.png>
+Package pdftex.def Info: images/worldmap.png used on input line 311.
+(pdftex.def)             Requested size: 259.36462pt x 145.89381pt.
+File: images/cali.png Graphic file (type png)
+ <use images/cali.png>
+Package pdftex.def Info: images/cali.png used on input line 317.
+(pdftex.def)             Requested size: 129.68231pt x 121.24937pt.
+ [18 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Lat
+ex/images/awesome.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/P
+roject/Project/Latex/images/banana.png>] <images/endofday.png, id=89, 1425.8268
+7pt x 742.27313pt>
+File: images/endofday.png Graphic file (type png)
+
+<use images/endofday.png>
+Package pdftex.def Info: images/endofday.png used on input line 359.
+(pdftex.def)             Requested size: 259.36462pt x 135.01917pt.
+
+<images/bronze.png, id=90, 303.38344pt x 487.06969pt>
+File: images/bronze.png Graphic file (type png)
+ <use images/bronze.png>
+Package pdftex.def Info: images/bronze.png used on input line 365.
+(pdftex.def)             Requested size: 86.45267pt x 138.79399pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[19]
+File: images/generalstore.png Graphic file (type png)
+ <use images/generalstore.png>
+Package pdftex.def Info: images/generalstore.png used on input line 381.
+(pdftex.def)             Requested size: 259.36462pt x 132.68628pt.
+
+<images/nogold.png, id=94, 301.8778pt x 183.68625pt>
+File: images/nogold.png Graphic file (type png)
+ <use images/nogold.png>
+Package pdftex.def Info: images/nogold.png used on input line 387.
+(pdftex.def)             Requested size: 129.68231pt x 78.90785pt.
+
+<images/yukon.png, id=95, 1437.11906pt x 730.98094pt>
+File: images/yukon.png Graphic file (type png)
+ <use images/yukon.png>
+Package pdftex.def Info: images/yukon.png used on input line 397.
+(pdftex.def)             Requested size: 259.36462pt x 131.91666pt.
+
+<images/yuki.png, id=96, 557.83406pt x 536.75531pt>
+File: images/yuki.png Graphic file (type png)
+ <use images/yuki.png>
+Package pdftex.def Info: images/yuki.png used on input line 403.
+(pdftex.def)             Requested size: 129.68231pt x 124.77792pt.
+
+<images/gameover.png, id=97, 1443.14156pt x 732.48656pt>
+File: images/gameover.png Graphic file (type png)
+
+<use images/gameover.png>
+Package pdftex.def Info: images/gameover.png used on input line 410.
+(pdftex.def)             Requested size: 432.26999pt x 219.40117pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Late
+x/images/endofday.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/P
+roject/Project/Latex/images/bronze.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/210
+8535r/Downloads/Project/Project/Latex/images/nogold.png> <//win4.ad.dcs.gla.ac.
+uk/it13/homes/2108535r/Downloads/Project/Project/Latex/images/yukon.png> <//win
+4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Latex/images/y
+uki.png>] <images/architecture.png, id=101, 836.12375pt x 229.85875pt>
+File: images/architecture.png Graphic file (type png)
+
+<use images/architecture.png>
+Package pdftex.def Info: images/architecture.png used on input line 417.
+(pdftex.def)             Requested size: 432.26999pt x 118.83627pt.
+
+<images/er.png, id=102, 858.20625pt x 756.8275pt>
+File: images/er.png Graphic file (type png)
+ <use images/er.png>
+Package pdftex.def Info: images/er.png used on input line 425.
+(pdftex.def)             Requested size: 302.58766pt x 266.84525pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[21 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/Project/Project/Late
+x/images/gameover.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/P
+roject/Project/Latex/images/architecture.png>] [22 <//win4.ad.dcs.gla.ac.uk/it1
+3/homes/2108535r/Downloads/Project/Project/Latex/images/er.png>] [23]
+Chapter 4.
+[24
+
+] [25]
+Chapter 5.
+[26
+
+]
+Appendix A.
+[27
+
+]
+Appendix B.
+
+(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\Project\Project\Latex\mp
+roj.bbl [28
+
+]) [29
+
+]
+(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\Project\Project\Latex\mp
+roj.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 5894 strings out of 494049
+ 90004 string characters out of 3148351
+ 159051 words of memory out of 3000000
+ 9075 multiletter control sequences out of 15000+200000
+ 41899 words of font info for 56 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 42i,8n,40p,1293b,509s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/he
+lvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvro8a
+.pfb>
+Output written on mproj.pdf (31 pages, 17891061 bytes).
+PDF statistics:
+ 152 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+
