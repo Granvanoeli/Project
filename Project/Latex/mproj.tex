@@ -11,6 +11,7 @@
 \usepackage{wrapfig}
 \usepackage{picinpar}
 \usepackage{fancyref}
+\usepackage{amsmath}
 
 \graphicspath{{images/}}
 
@@ -67,15 +68,15 @@ acknowledgements go here
 
 \section{Overview}
 \subsection{Problem statement}
-This project proposes to analyse user’s searching behaviour in a context deprived of any cues 
+This project proposes to analyse user's searching behaviour in a context deprived of any cues 
 that could allow them to exploit any previous experience in the task in order to achieve an 
 optimal information foraging behaviour. 
-User’s performance will be recorded and evaluated to see if it matches data in experiments in 
-which this context is present. Findings could help provide insight on people’s choices when 
+User's performance will be recorded and evaluated to see if it matches data in experiments in 
+which this context is present. Findings could help provide insight on people's choices when 
 faced with a task that requires the same kind of skills that are required in information foraging 
 with none of the context that they are presented with in experiments based on the same 
 theories.
-Finally this project aims at making user’s experience as enjoyable as possible for two reasons.
+Finally this project aims at making user's experience as enjoyable as possible for two reasons.
 Firstly it will avoid users feeling like they are performing work, removing them further from a 
 standard information foraging task. Secondly, in order to enhance the number of users that 
 play the game as well as the amount of games played.
@@ -89,26 +90,179 @@ play the game as well as the amount of games played.
 \section{Background theories }
 
 \subsection{Optimal Foraging Theory}
-In his chapter on the “Optimal Foraging Theory” Barry Sinevro (2006) provides us with a 
-wealthy amount of field studies on animals in the wild, whose foraging efforts seem to be 
-aimed towards maximising their energy gain per unit of time. This striving towards the 
-implementation of optimal foraging techniques, in fact, represents a large part of the lives of 
-many species and, in turn, a fundamental component in determining their adaptive success.
-For instance, Sinevro tells us, the common shrew seems to always keep itself a mere few hours 
-from death at all times. Because its small body size, the shrew cannot afford “the luxury of a 
-thick layer of fat.” (Sinevro 2006) and has to constantly forage to keep itself alive. 
-One of the most interesting studies proposed by Sinevro which can help us bring out some 
-interesting points on searching behaviours, is the one on crows foraging on clams. In this 
-study, Sinevro tells us about the foraging behaviour of the common crow (Corvus caurinus) in 
-the intertidal. This kind of crow, has developed a technique to open clams which requires it to 
-take a short flight and drop clams on some rocks below it to crack them open. The cost (in 
-energy) of searching for clams, and the one of handling them is almost the same, however, the 
-cost (in time) of performing the same activities is 4 times more expensive with regards to 
-searching. It is then difficult to understand why crows would reject a large amounts of the 
-clams they find, especially given the fact that searching seems to take up so much time. The 
-reason for this behaviour is to be found in the “average net profitability of the clams as a 
-function of size” (Sinevro 2006), which can be represented by the equation: 
+One of the most interesting studies proposed by Sinevro which can help us bring out some interesting points on searching behaviours, is the one on crows foraging on clams. In this study, Sinevro tells us about the foraging behaviour of the common crow (Corvus caurinus) in the intertidal. This kind of crow, has developed a technique to open clams which requires it to take a short flight and drop clams on some rocks below it to crack them open. The cost (in energy) of searching for clams, and the one of handling them is almost the same, however, the cost (in time) of performing the same activities is 4 times more expensive with regards to searching. It is then difficult to understand why crows would reject a large amounts of the clams they find, especially given the fact that searching seems to take up so much time. The reason for this behaviour is to be found in the "average net profitability of the clams as a function of size”(Sinevro 2006), which can be represented by the equation:
+\begin{equation*}
+\frac{\emph{Energy}}{ \emph{Time}} = \frac {\emph{Energy per clam as a function of size - (Search Cost + Handling Cost)}}{ \emph{(Search Time + Handling Time)}}
+\end{equation*}
+
+It is very interesting to notice that predictions on the crow's behaviour in order to maximise energy gain per unit of time according to this formula, closely match its observed behaviour.
+\begin{figure}[!h]
+        \centering
+	\caption{frequency of clams in class size (\% on y axis) by clam length (x axis)}
+	\label{fig:clams}
+        \begin{subfigure} [h] {0.3\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {clam1.png}
+		\caption{}
+        \end{subfigure}
+        \space
+        \space
+        \begin{subfigure} [h] {0.3\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {clam2.png}
+		\caption{}
+
+        \end{subfigure}
+	\space
+	\space
+	\begin{subfigure} [h] {0.3\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {clam3.png}
+		\caption{}
+
+        \end{subfigure}
+\end{figure}
+
+As we can see from (b) and (c) in fig \ref{fig:clams}, predicted behaviour seems to closely match observed behaviour. This kind of model, however, considers the disposition of prey in the environment to be random but, sometimes, prey items seem to have a patchy distribution (Sinevro 2006). In this case, an animal will have to travel between patches before it can start exploiting a new one. This creates two variables according to which an animal has to "make its decision" in order to maximise its rate of gain. The first one is the time spent within a patch to feed, and the second one is the time spent travelling between patches in which, crucially, the animal doesn't gain any energy and instead consumes it. A formula that effectively models this choice is:
+
+\begin{equation*}
+\emph{Rate of energy gain} = \frac{\emph{Energy}}{ \emph{Time}} = \frac {\emph{Energy or Load Size}}{ \emph{(Travel time to patch + Foraging time to patch}}
+\end{equation*}
+
+Also known as "\textbf{Charnov's Marginal Value Theorem}" which generates an energy gain function like the one on the left. Here, we can see how there are two main areas delimiting the Cartesian space, the first one (on the left side of the curve) is the potential time the animal has to spend in between patches, whereas the second one is the potential time spent feeding in a single patch. An optimal allocation of time in foraging for this rate of gain will be represented by the tangent to the curve as shown in the graphs on the right. The red line is the tangent and the point of intersection with the curve determines the in-patch time that would be optimal for an animal to spend feeding.
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.4\textwidth]{gain1.png}}
+	\caption{An energy gain function}
+           \label{gain1}
+\end{figure}
+
+The aim of this proposal is evaluate subjects' innate ability to reproduce similar behaviours while foraging for information rather than for food. To do this, the context of a gold digging strategy game has been chosen, in order to remove all proximal cues that might depend on the user's previous experience. In this environment, the user will have to perform the same kind of cost vs. benefit choices, however, he would not be able to adopt the strategies he consciously would. Following I discuss a paper by Pirolli \& Card on Information Foraging which seems to support this intuition proposing experimental evidence and mathematical models.  "
+
+\begin{figure}[!h]
+        \centering
+	\caption {The optimal rate of gain}
+	\label{fig:gain tangent}
+        \begin{subfigure} [h] {0.49\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {gain2.png}
+        \end{subfigure}
+        \space
+        \space
+        \begin{subfigure} [h] {0.49\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {gain3.png}
+        \end{subfigure}
+\end{figure}
+
 \subsection{Information Foraging Theory}
+
+Pirolli \& Card seem to start from the assumption that there are many similarities between the techniques adopted by animals foraging in the wild and the ones adopted by people in "Information Foraging". Because of the structure of today's society, in fact, it is not for food that we forage for. Food is usually readily available almost anywhere  human settlements can be found, however, to purchase it, we need to engage in a "complex tributary of cultural tasks that engage our physical and social environments" (Pirolli \& Card  1995) which demand us to develop numerous "information-based" strategies, in order to earn a living. Pirolli \& Card begin by explaining that our adaptive success seems to be increasingly dependent on our mastery of techniques of information-gathering, sense-making, decision-making and problem-solving strategies. In turn, they claim, this leads us to implement strategies which are similar to the ones seen in foraging behaviours of animals in the wild. Here, we can observe patterns in food foraging behaviours which aim at maximising the energy intake while minimising the amount of energy spent while foraging. 
+
+In other words, our lives are increasingly dependent on the ways in which we organise and retrieve information in order to use it effectively to navigate and survive today's social (and sometimes physical) landscape. Pirolli \& Card go on to claim that, the Information Foraging theory's main tenant is that:  "when feasible, natural information systems evolve towards stable states that maximise gains of valuable information per unit cost. Cognitive systems engaged in information foraging will exhibit such adaptive tendencies" (Pirolli \& Card  1995). 
+
+As a consequence, it is to be expected that people will modify their information foraging strategies as well as the structure of the environment itself, whenever possible, to "maximise the rate of gaining valuable information" (Pirolli \& Card  1995). Better strategies will be the ones that will allow someone who adopts them to yield more information per unit cost. Furthermore, it is also expected that these strategies will evolve through time, in order to reach a seemingly stable state that maximises the potential gains. 
+
+The process of analysing the development of this kind of behaviour, is called "adaptation analysis". This kind of analysis is conducted here, as well as in biology, through the use of "optimisation models" to study the design features of organisms and artefacts. Optimisation models include three major components:
+
+\begin{itemize}
+	\item \textit{Decision assumption}, determine how much time is to be spend analysing a certain collection of information as well as which kind of content is worthwhile pursuing.
+  	\item \textit{Currency assumptions}, determine how the choices made through decision assumptions are to be evaluated. In the context of Information Foraging, the relevant currency will be amount of relevant documents found, as opposed to the amount of energy gained in food foraging strategies.
+  	\item \textit{Constraint assumptions}, determine what kind of limits will apply to the relationship between decision and currency assumptions. In Information Foraging, these include (but are not limited to) previous knowledge, available technology and task structure.
+\end{itemize} 
+
+These models allow us to construct a framework for the evaluation in Information Foraging, however, it is not to be expected that any single individual will fully be conscious and even evolve towards, an optimal awareness and implementation of these models. These models simply outline the possibility of "an advantageous adaptation if not blocked by other forces”. 
+
+The main decision an organism has to make in its foraging endeavours (being it for food or for information) is determined by a problem of "Enrichment vs. Exploitation” of a certain "patch” of relevant documents (or food). The careful weighing of one against the other, will, in turn, determine its searching behaviour, comprehensive of "in-patch” and "between-patch behaviours”.  When we decide to "enrich” a certain patch of information, we engage in certain "enrichment strategies” which are meant to maximise the amount of relevant information per unit of cost that we are able to get from a patch. However, the adoption of these strategies themselves has a cost which should be considered when making the decision to move to a different patch and select a new set of documents. There are two main "in-patch” enrichment strategies. 
+
+The first one is based on producing information packages that yield better results. This involves strategies like developing or acquiring better search tools, as well as spending time mastering them. The second one is based on filtering the incoming information into relevant topics or according to other decisional criteria devised by the foragers and that they came to realise as useful to their foraging needs. 
+
+Another way foragers can increase their gain in yielded by their foraging behaviours is by using "between-patch” enrichment strategies. These are also of two kinds. The first one is constituted by what Pirolli \& Card call "scent-detection strategies”. These strategies are based on the identification of proximal cues in the environment in order to make a choice on whether it would be fruitful to explore a certain "patch” or move to another one based on detection of proximal cues. In the context studied by Pirolli \& Card, this translates into identifying the relevance of a certain document, or group of documents by, for instance, its title and payoff, perceived clarity of writing or length. 
+
+A second kind of in-patch enrichment strategy is based on reducing the cost of getting from one information patch to another. While this is usually impossible for animals in the wild, because it involves modifying the environment, it is instead a very efficient way for information foragers to improve the rate of gain per unit cost. In the example proposed by Pirolli \& Card this is shown in the re-organisation of the workspace of an employee whose job is to write a Business Intelligence Newsletter. The subject of their experiment, in fact, organised the different areas of his office, in order to minimise the time spent searching for relevant document by disposing the material he knew he would need more frequently, the nearest to his working station.
+
+For the purpose of this proposal it is also important to consider the conventional models of foraging on which Information Foraging Theory is based. As it can be expected, to provide an efficient model of foraging, we will have to take into account equations which model both in-patch and within-patch behaviours. Given what previously stated, Pirolli \& Card start by characterising the rate of gain of valuable information per unit cost R as the ratio of the total net amount of valuable information gained $G$ divided by the total amount of time spent between patches $T_B$ and exploiting within patches $T_W$ a
+
+\begin{equation}
+R = \frac{G}{T_B + T_W}
+\label {eq:main}
+\end{equation}
+
+Notably, this equation assumes that (1) "the total amount of information gained can be represented as a linear function of between-patch foraging time:
+
+\begin{equation}
+G = \lambda T_B g
+\end{equation}
+
+And that (2) “the total amount of within-patch time can be represented as:
+
+\begin{equation}
+T_W = \lambda T_B t_W
+\end{equation}
+
+This, in turn, gives Holling's Disc Equation:
+\begin{equation}
+\begin{split}
+ R = \frac{\lambda T_B g}{T_B + \lambda T_B t_W} \\
+= \frac{\lambda g}{1 + \lambda t_w}
+\end{split}
+\end{equation}
+
+This formulation, however, "addresses the problem of allocation of time between in-patch vs. between patch under certain strong assumptions". Because of this, Pirolli \& Card have to devise their own interpretation which takes in to account that "(a) there might be different kinds of patches and (b) the total gains from a patch depend on the within-patch foraging time which is under the control of the forager. For this reason they have to include a value \emph{i} representing the type of patches encountered at a rate of $\lambda$ i and a value $t_wi$ representing the \emph {policy} adopted by a forager on how much time to spend within each patch. The total gain can then be represented as the sum of all the values of \emph{i} between 1 and P.
+
+\begin{equation}
+\begin{split}
+G = \sum_{\substack{i=1}} \lambda_i T_B g_i (t_{wi}) \\
+= T_B  \sum_{\substack{i=1}} \lambda_i g_i (t_{wi})
+\end{split}
+\end{equation}
+
+In the same way, the total amount of time spent within patches could be represented as:
+
+\begin{equation}
+\begin{split}
+T_W = \sum_{\substack{i=1}} \lambda_i T_B t_{wi} \\
+= T_B  \sum_{\substack{i=1}} \lambda_i (t_{wi})
+\end{split}
+\end{equation}
+
+Combining these two equations according to (eq. \ref{eq:main}) gives us:
+
+\begin{equation}
+\begin{split}
+R = \frac{T_B \sum_{\substack{i=1}} \lambda_i g_i (t_{wi})}{T_B + T_B  \sum_{\substack{i=1}} \lambda_i t_{wi} } \\
+= \frac{\sum_{\substack{i=1}} \lambda_i g_i (t_{wi})}{1 + \sum_{\substack{i=1}} \lambda_i t_{wi} }
+\end{split}
+\end{equation}
+
+This last equation is what Pirolli \& Card call the \emph"patch model for information foraging" which takes into account patches that yield different kinds of gain functions as well as different strategies to exploit them.
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{enrichment1.png}}
+	\caption{(a) - The Graph illustrates Charnov's Marginal Value Theorem  where t* denotes the optimal amount of time spent within-patch given the intersection between the gain function $g(t_w)$and the tangent passing from $t_B$ (the time spent between patches)}
+           \label{gain1}
+\end{figure}
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{enrichment2.png}}
+	\caption{(b) - Shows the changes generated by the adoption of between-patch enrichment strategies. The tangent to the gain function $g(t_w)$ passing from $t_{B2}$  determines that the optimal amount of time to spend in a given patch is now $t_2*$ . The forager is now able to afford to spend less time in each patch.}
+           \label{gain1}
+\end{figure}
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.8\textwidth]{enricment3.png}}
+	\caption{(c) - Shows the changes generated by the adoption of within-patch enrichment strategies. The new gain function $g_2(t_w$) has a higher rate gain which  allows foragers that spend the same amount of time between patches $t_B$ will be able to reap more results in a shorter time.}
+           \label{gain1}
+\end{figure}
+
+Figures (a), (b) and (c) are the graphical representation of the functions presented in the previous section according to Charnov's Marginal Value Theorem, they model the problem of allocation of time between in-patch vs. between-patch strategies. Here, between-patch search times $t_B$ , $t_{B1}$ and $t_{B2}$ generate different tangents to the $g(t_w)$ gain function which, in turn, determines the optimal rate of gain $R$. The outside of the curve on the x axis represents between-patch time while, the inside of it, represent within-patch time. To determine the optimal rate of gain $R*$ one draws the tangent line to the gain function $g(t_w)$ and passing through $t_B$ . The point of tangency will determine the "optimal allocation of within-patch foraging time $t*$".  
+
+This means that, the more time is spent between-patch, the less a forager will find it beneficial to spend time exploiting a given patch, always depending on the gain function g(tw). In Figure 2, in fact, we see the effects of a between-patch enrichment like the one described previously (office re-disposition) which sets the optimal rate of gain in such a way that it will be more beneficial for the forager to spend more time within-patch to exploit it. Finally, in Figure 3 we can see the effect of within-patch enrichment (for instance, making information packages that yield better results). As we can see, within-patch enrichment, changes the gain function g(tw) determining higher gains per unit of time spent within-patch.
+
+The objective of the experiment outlined in this proposal, is to be able to evaluate the strategies adopted by subjects in order to reach an optimal rate of gain and to analyse how they are able to choose between within/between-patch enrichment strategies to better their rate of gain per unit cost. 
+
 
 \section{Previous studies}
 \subsection{Searching behaviour}
@@ -300,7 +454,6 @@ Achievements ans special achievements have been incorporated in order to both ad
 
 In this page, users are able to find  the developer and supervisor's contact details as well as reading about the reasons behind the creation of Gold Digger and acknowledgements of the authors of some of the material used in the site.
 
-$4+4 \in $ \cite{BK08}
 
 \section{Walkthrough}
 
@@ -420,7 +573,7 @@ Because she doesn't have enough money to enter any of the mine, Jill loses her f
 Gold Digger is based on a 3-tier architecture. Each user is able to create a player account (client) containing all of the details entered upon registration, together with a set of game variables, set to their starting values. The client side renders HTML5 and CSS3 elements and graphics while updates to the game states are done mostly through AJAX, in order to avoid reloading the page. The game logic is coded in the middleware using the python-based Django framework (see \ref {subsec:Django}). All of the user profiles as well as the other game objects and achievements are stored in the database while the corresponding graphics, as well as the rest of the game graphics are stored in the project's static and media folders. Finally, the middleware continuously updates a log file in order to monitor user behaviour and gather data to be parsed and analysed at a later stage.
 \section{ER Model}
 
-\begin{figure} [h] 
+\begin{figure} [ht] 
 	\centering
            \makebox[\textwidth][c]{\includegraphics[width=0.7\textwidth]{er.png}}
 	\caption{The Gold Digger ER diagram}
@@ -429,17 +582,41 @@ Gold Digger is based on a 3-tier architecture. Each user is able to create a pla
 The above diagram describes the entity-relationship model for Gold Digger. There are 5 entities in Gold Digger:
 \begin{itemize}
 	\item \textbf{User Profiles}: this entity contains several of the users' game stats, like the amount of gold at their disposal and the average amount of gold dug per mine as well as a reference to the Django object 'user' containing all the information regarding the user's password, username and email. This is necessary in order to take advantage of Django's very efficient user management system and keep the website as safe as possible 
+
   	\item \textbf{Digging Equipment}: this entity contains each of the tools' name, image, price and description. However, the most important attributes of this entity are the \textit{modifier} and the \textit{time modifier}. The\textit{modifier} attribute is used by the game mechanics to calculate how much gold a user is able to extract from a given layer of the mine. It is a \textit{float} number between 0.2 and 0.8  that will be multiplied by each of the amounts of gold in each layer. This way if the user is using, for instance, a shovel, she will be able to extract only 30\% of the gold that is actually present in that layer (see \ref{subsec:code}). The \textit{time modifier} attribute, on the other hand stores the digging cost per digging operation of each of the tools and it is an integer that goes from 5 to 1 in decreasing order from the worst tool to the best.
-  	\item \textbf{Scanning Equipment}: this entity is quite similar to Digging Equipment but it does not include the \textit{time modifier} attribute. The \textit{modifier} attribute of this entity is responsible for calculating the cue array, that is in turn responsible for determining the amount of gold flecks that will be shown in each of the mine's layers. Furthermore, because this attribute holds only float values from 0.2 to 0.8, a simple multiplication by 10 is used  to determine the number of layers in which those specs are actually visible  (see \ref{subsec:code}).
-	\item \textbf{Vehicles}: 1
-	\item \textbf{Achievements}: 1
+
+  	\item \textbf{Scanning Equipment}: this entity is quite similar to Digging Equipment but it does not include the \textit{time modifier} attribute. The \textit{modifier} attribute of this entity is responsible for calculating the cue array, that is in turn responsible for determining the amount of gold flecks that will be shown in each of the mine's layers (see \ref{subsec:code}). Furthermore, because this attribute holds only float values from 0.2 to 0.8, a simple multiplication by 10 is used  to determine the number of layers in which those specs are actually visible  .
+
+	\item \textbf{Vehicles}: this entity, like Scanning Equipment, only posses the  \textit{modifier} attribute. This is an integer in range 10 to 6 and it holds the value of time units to be subtracted from the day's time, for each digging operation.  
+	\item \textbf{Achievements}: the Achievement entity simply stores the name, image, condition and description of each of the achievements.
 \end{itemize} 
+
+\textbf{Relations}
+
+There are \textbf{four relations} between the above entities. Each player can only store only one relation to a particular Scanning Equipment, Digging Equipment and Vehicle object thus, these are all one-to-one relationships. However, because each user can earn many achievements, the relationship between the User Profile and the Achievement entity needs a separate database table to keep track of the user-achievement value couples. In this table, \textbf{User Achievements}, each row comprises two columns, each of which is a foreign key. The first one is the relation to a User Profile Object, and the second one is the relation to an Achievement object.   
 
 \section{Graphics}
 
+One of the main elements of the design of Gold Digger was its graphic design. The general idea was to reproduce the look and feel of a retro 8-bit game as much as possible, without compromising the clarity and ease of use needed by a website. For this reason, 8-bit-style graphics were employed in most of the elements of the 'game pages' while Twitter Bootstrap was used in order to provide a simple minimalistic "framework" for the graphics to be displayed in. 
+
+\textbf{Fonts}
+
+There are two fonts that have been used throughout Gold Digger. The first one is \textbf{Open Sans} (see \ref{subsec: boot}). This font is part of the Twitter Bootstrap theme that provides the graphic framework for the site. It is used in areas with lots of text and in the navbar, where clarity the most important issue. However, throughout the site, most of the headings, scores, descriptions and game messages employ the font \textbf{SF Pixelate} (by ShyFonts) which has a pixelated look reminiscent of retro 8-bit games. All of the text in the 'game pages' is typed using this font. 
+
+\textbf{Landscapes and World Map}
+
+There are six different landscapes in Gold Digger, each one associated with one of the locations that the user can travel to and dig into. Three of them (California, Scotland and Yukon) were created with a pixel-art specific (Pixen) program using a number of pictures for inspiration, while the remaining three have been produced by applying filters, modifying and coloring similar pre-existing pictures in Photoshop CS, to achieve the 'pixelated look'. 
+
+The World Map was created by importing a set of freeware game tiles into a freeware level design tool called 'Tiled' (see \ref{app: firstapp}). This tool allow users to load a particular set of tiles and arrange them on a grid of their choosing. The tileset used for the World Map was originally created for the expansion and creation of new maps for the game "Tales of Middle Earth" but it lent itself very well to the task of creating a word map. After the first version of the map was completed, the location names and price tags were added with Photoshop CS 6 where other minor adjustments were also made.
+
+\textbf{Items and Achievements}
+
+Most of the items and achievements icons were made by Alis, a pixel artist who made them available for public usage (see \ref{app: firstapp}). However a minor percentage of the items were created by modifying sprites of the popular game METAL SLUG  by SNK/Playmore. These sprites are all properties of their respective owners and no copyright is claimed upon them. 
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Impementation}\label{implementation}
+\chapter{Impementation}
+\label{implementation}
 \section{Development Methods}
 \section{Heuristic Evaluation}
 \section{Testing}
@@ -453,6 +630,7 @@ The above diagram describes the entity-relationship model for Gold Digger. There
 \subsection{CSS3}
 \paragraph{Animate.css}
 \subsection{Twitter Bootstrap}
+\label{subsec: boot}
 \subsection{Javascript and JQuery}
 \paragraph{Trip.js}
 \paragraph{Animatenumbers.js}
@@ -478,6 +656,7 @@ The above diagram describes the entity-relationship model for Gold Digger. There
 \appendix % first appendix
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{First appendix}
+\label{app: firstapp}
 
 \section{Section of first appendix}
 
@@ -486,6 +665,8 @@ The above diagram describes the entity-relationship model for Gold Digger. There
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % it is fine to change the bibliography style if you want
+
 \bibliographystyle{plain}
 \bibliography{mproj}
+\nocite{*}
 \end{document}
