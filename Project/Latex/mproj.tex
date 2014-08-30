@@ -12,6 +12,16 @@
 \usepackage{picinpar}
 \usepackage{fancyref}
 \usepackage{amsmath}
+\usepackage{listings}
+\lstdefinestyle{customc}{
+basicstyle=\footnotesize,
+numbers=left,
+keywordstyle=\bfseries\color{orange},
+commentstyle=\itshape\color{purple!40!black},
+stringstyle=\color{green!40!black},
+}
+\lstset{escapechar=@,style=customc}
+
 
 \graphicspath{{images/}}
 
@@ -572,7 +582,7 @@ Because she doesn't have enough money to enter any of the mine, Jill loses her f
 
 Gold Digger is based on a 3-tier architecture. Each user is able to create a player account (client) containing all of the details entered upon registration, together with a set of game variables, set to their starting values. The client side renders HTML5 and CSS3 elements and graphics while updates to the game states are done mostly through AJAX, in order to avoid reloading the page. The game logic is coded in the middleware using the python-based Django framework (see \ref {subsec:Django}). All of the user profiles as well as the other game objects and achievements are stored in the database while the corresponding graphics, as well as the rest of the game graphics are stored in the project's static and media folders. Finally, the middleware continuously updates a log file in order to monitor user behaviour and gather data to be parsed and analysed at a later stage.
 \section{ER Model}
-
+\label{sec:ER}
 \begin{figure} [ht] 
 	\centering
            \makebox[\textwidth][c]{\includegraphics[width=0.7\textwidth]{er.png}}
@@ -626,7 +636,28 @@ Most of the items and achievements icons were made by Alis, a pixel artist who m
 \subsection{Live Testing}
 \section{Technologies}
 \subsection{Django}
-Django is a very well documented, easy to use, extensive framework based on python that 
+Django is a very powerful, well documented, easy to use, extensive web development framework based on python. In Gold Digger, it provides the base on which all of the other technologies employed are built upon. The choice of Django, as a web development framework has been made for all the reasons listed above, but some were important in particular. Firstly, Django uses a Model View Template architecture. Each url request is handled by the Model middleware in Django and redirected to a specific View associated with it. The view, in turn, handles the request and provides the data to be passed to a the Template that further processes it and diplays it (see below for Django template code).
+
+ Another of Django's main features is the handling of SQLite databases through simple python commands. Because each user is associated with a User Profile object, frequent update of the database was needed in order to update all the game values and stats. The code snippet below, for example, is responsible for assigning an achievement to a player. This requires the method to be passed a reference of the user as well as reference to the achievement she gained and then, the user hasn't earn the achievement already, create a new row in the User Achievement database table (see \ref{sec:ER}. Django allows us to do this very easily, by simply checking if the user-achievement pair already exist in the database (on line 4) and, if not, go ahead and create it. As we can see, this only takes a few lines of very simple code. In the code snippet, the method returns a object (\emph{myResponse}) containing all the information regarding the achievement in order to be sent back as a response to an AJAX call (see \ref{subsec:AJAX}) an be subsequently displayed to the user. 
+
+\lstinputlisting[language=Python, firstline=907, lastline=924]{views.py}
+
+In this second code snippet we can also see how easy Django makes the querying and ordering of database objects. Here all the User Profile objects are pulled from the database and ordered according to different game stats to be displayed in the leaderboards page with the \textit{.order\_by} method.
+
+\lstinputlisting[language=Python, firstline=296, lastline=304]{views.py}
+
+Another fundamental Django feature are \textbf{Django tags}. Django tags are enclosed in \textbf{\{\% ... \%\}} tags and allow the display of content in HTML documents. In the snippet below, for example, the HTML template is passed an array of 'block' objects which represent the layers of the mine. This array is iterated through using the \textbf{\{\% for block in blocks \%\}}.  If the user's visibility (determined by her scanning equipment) and if the layer hasn't already been dug, the appropriate cues are displayed, using a second type of Django tags, enclosed between double curly braces. 
+
+\lstinputlisting[language=HTML, firstline=136, lastline=147]{game2.html}
+
+These double curly braces allow, for example, for the appropriate gold flecks cues to be displayed. We can see this on line 6 where \emph{class=row\_flecks\_\{\{ block.cue \}\}} will display a different row of flecks according to the value of \emph{\{\{  block.cue \}\}}
+
+Finally, because some variables associated with the user are stored in the Gold Digger database as discussed above, however, some other variable will need to change very often during the game but still need to be associated with each particular user.These are variables such as the user's current gold, the array of layers of each mine, and the number mines the user has been in. For them,  \textit{sessions} need to be implemented. Thankfully Django also offers session support:
+
+\lstinputlisting[language=Python, firstline=323, lastline=326]{views.py}
+
+The code snippet above is employed in the view that handles the choice of a location in the world map. Here the session values \textit{hasmine} and \textit{mine\_type} are set to 'False' and 'null' so that a new mine can be created by the game view, the time remaining is set to 100 (beginning of the day) and the current gold is set to 0, since the player hasn't started digging in this particular location yet. Using Django, these variables are associated with the particular user session and can be used by all the other view without being singularly passed.
+
 \label{subsec:Django}
 \subsection{Python}
 \subsection{HTML5}
@@ -638,8 +669,9 @@ Django is a very well documented, easy to use, extensive framework based on pyth
 \paragraph{Trip.js}
 \paragraph{Animatenumbers.js}
 \subsection{AJAX}
+\label{subsec:AJAX}
 \subsection{Code}
-\label{subsec:code}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Results and Data}\label{results}

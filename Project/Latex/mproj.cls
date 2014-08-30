@@ -15,7 +15,7 @@
 ]
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}}
 \ProcessOptions
-\LoadClass[11pt,a4paper]{report}
+\LoadClass[10pt,a4paper]{report}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{11pt plus 2pt}
