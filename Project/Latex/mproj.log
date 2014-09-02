@@ -1,32 +1,21 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.8.30)  30 AUG 2014 21:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.27)  2 SEP 2014 00:57
 entering extended mode
-**//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project/L
-atex/mproj.tex
-
-(//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project/La
-tex/mproj.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
-abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
-croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
-
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\mproj.cls
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**mproj.tex
+(./mproj.tex
+LaTeX2e <2014/05/01>
+Babel <3.9k> and hyphenation patterns for 78 languages loaded.
+(./mproj.cls
 Document Class: mproj 2009/01/09 Colin Perkins <csp@dcs.gla.ac.uk>.2009/09/16 M
 odified by Tim Storer <tws@dcs.gla.ac.uk> to support non pdf modes.2011/02/15 M
 odified by Gregg Hamilton <hamiltgr@dcs.gla.ac.uk> for use in final year projec
 ts.2012/02/21 Modified by Gethin Norman <gethin.norman@glasgow.ac.uk> for use i
 n masters projects and proposals.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\report.cls"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -42,48 +31,45 @@ File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\caption\subcaption.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\caption\caption.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\caption\caption3.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen105
@@ -99,8 +85,7 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 \c@subfigure=\count90
 \c@subtable=\count91
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\subfig\subfig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count92
 \sf@farskip=\skip43
@@ -109,12 +94,12 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 \sf@nearskip=\skip45
 \sf@top=\skip46
 \sf@bottom=\skip47
-) ("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
-\Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\fancyvrb\fancyvrb.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -126,14 +111,13 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count95
 \FV@OutFile=\write3
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\pdfpages\pdfpages.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pdfpages.sty
 Package: pdfpages 2013/08/25 v0.4v Insert pages of external PDF documents (AM)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\calc.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count96
 \calc@Bcount=\count97
@@ -141,27 +125,25 @@ Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bdimen=\dimen114
 \calc@Askip=\skip48
 \calc@Bskip=\skip49
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
 \calc@Ccount=\count98
 \calc@Cskip=\skip50
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\eso-pic\eso-pic.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/eso-pic/eso-pic.sty
 Package: eso-pic 2013/10/06 v2.0d eso-pic (RN)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
-Package: atbegshi 2011/01/30 v1.15 At begin shipout hook (HO)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 ))
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\xcolor\xcolor.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -175,8 +157,7 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 ))
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\pdfpages\pppdftex.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdfpages/pppdftex.def
 File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 )
 \AM@pagebox=\box27
@@ -184,10 +165,10 @@ File: pppdftex.def 2013/08/25 v0.4v Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count99
 \AM@templatesizebox=\box28
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\subfloat\subfloat.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/subfloat/subfloat.sty
 Package: subfloat 2003/08/21 version 2.14
- Package `subfloat', Version 2.14 of 2003/08/21.
+
+Package `subfloat', Version 2.14 of 2003/08/21.
 
 Package subfloat Warning: Numbers of floats not counted:
 (subfloat)                If you use one of the counters subfloatfiguremax or
@@ -197,9 +178,7 @@ Package subfloat Warning: Numbers of floats not counted:
 (subfloat)                Please switch on countmax or remove the code using
 (subfloat)                the counter then..
 
-)
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\floatrow\floatrow.sty"
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/floatrow/floatrow.sty
 Package: floatrow 2008/08/02 v0.3b floatrow: float package extension
 \c@float@type=\count100
 \float@exts=\toks16
@@ -237,8 +216,7 @@ Package floatrow Info: Modified rotfloat package code loaded on input line 473.
 \LTright=\skip64
 \flrow@types=\toks18
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\wrapfig\wrapfig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen119
 \WF@size=\dimen120
 \c@WF@wrappedlines=\count107
@@ -246,8 +224,7 @@ atex\wrapfig\wrapfig.sty"
 \WF@everypar=\toks19
 Package: wrapfig 2003/01/31  v 3.6
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\picinpar\picinpar.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/picinpar/picinpar.sty
 Pictures in Paragraphs. Version 1.2a, July 13, 1993
 \br=\count108
 \bl=\count109
@@ -289,50 +266,48 @@ Pictures in Paragraphs. Version 1.2a, July 13, 1993
 \waslice=\box43
 \wbslice=\box44
 \fslice=\box45
-)
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\fancyref\fancyref.sty"
+) (/usr/local/texlive/2014/texmf-dist/tex/latex/fancyref/fancyref.sty
 Package: fancyref 1999/02/03 v0.9c Fancy cross-referencing
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\tools\varioref.sty"
-Package: varioref 2009/09/13 v1.4w package for extended references (FMi)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/tools/varioref.sty
+Package: varioref 2011/10/02 v1.4z package for extended references (FMi)
 \c@vrcnt=\count118
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks25
 \ex@=\dimen133
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen134
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count119
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count120
 \leftroot@=\count121
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count122
 \DOTSCASE@=\count123
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box46
 \strutbox@=\box47
 \big@size=\dimen135
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count124
 \c@MaxMatrixCols=\count125
 \dotsspace@=\muskip11
@@ -353,11 +328,10 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \multlinegap=\skip66
 \multlinetaggap=\skip67
 \mathdisplay@stack=\toks29
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\listings\listings.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count131
 \lst@gtempboxa=\box48
 \lst@token=\toks30
@@ -371,30 +345,28 @@ atex\listings\listings.sty"
 \lst@lineno=\count136
 \lst@maxwidth=\dimen145
 
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\listings\lstmisc.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 \c@lstnumber=\count137
 \lst@skipnumbers=\count138
 \lst@framebox=\box49
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\listings\listings.cfg"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2014/03/04 1.5c listings configuration
 ))
 Package: listings 2014/03/04 1.5c (Carsten Heinz)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/helvet.sty
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -409,7 +381,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -444,41 +416,40 @@ Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
 Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
 Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
 Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 311.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 312.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 313.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 314.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 315.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 316.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 317.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 318.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 319.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 320.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 321.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 322.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 323.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 324.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 326.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 327.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 328.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 329.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 330.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 331.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 332.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 333.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 334.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 335.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 336.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\mproj.aux
+No file mproj.aux.
+\openout1 = `mproj.aux'.
 
-LaTeX Warning: Label `gain1' multiply defined.
-
-
-LaTeX Warning: Label `gain1' multiply defined.
-
-
-LaTeX Warning: Label `gain1' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
@@ -493,17 +464,16 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 45.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Try loading font information for T1+phv on input line 45.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\t1phv.fd"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\c
-ontext\base\supp-pdf.mkii"
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count139
 \scratchdimen=\dimen146
@@ -516,7 +486,50 @@ ontext\base\supp-pdf.mkii"
 \MPnumerator=\count143
 \makeMPintoPDFobject=\count144
 \everyMPtoPDFconversion=\toks32
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: floatrow package is loaded.
@@ -528,8 +541,7 @@ Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box51
 
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\floatrow\fr-subfig.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/floatrow/fr-subfig.sty
 Package: fr-subfig 2007/12/24 v0.1g (beta) floatrow: additions for subfig
 \FBsc@max=\skip68
 \FBso@max=\skip69
@@ -548,73 +560,66 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 51.
  [1
 
-{C:/Users/2108535R.DCS.007/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <
-//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project/Lat
-ex/images/CompSci_colour.pdf>]
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./image
+s/CompSci_colour.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 55.
- [1] [1]
-[2]
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\mproj.toc [3
-
-])
+ [1] [1] [2]
+No file mproj.toc.
 \tf@toc=\write4
- [4]
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\mproj.lof)
-\tf@lof=\write5
- [5
+\openout4 = `mproj.toc'.
 
-] [6]
+[3
+
+]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 77.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 76.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 80.
-[7
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 79.
+[4
 
 ]
 Chapter 2.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 105.
-<images/clam1.png, id=41, 159.59625pt x 99.37125pt>
+<images/clam1.png, id=27, 159.59625pt x 99.37125pt>
 File: images/clam1.png Graphic file (type png)
  <use images/clam1.png>
 Package pdftex.def Info: images/clam1.png used on input line 115.
 (pdftex.def)             Requested size: 125.18227pt x 77.94443pt.
 
-<images/clam2.png, id=43, 150.5625pt x 98.61844pt>
+<images/clam2.png, id=29, 150.5625pt x 98.61844pt>
 File: images/clam2.png Graphic file (type png)
  <use images/clam2.png>
 Package pdftex.def Info: images/clam2.png used on input line 122.
 (pdftex.def)             Requested size: 125.18227pt x 81.99773pt.
 
-<images/clam3.png, id=44, 152.82094pt x 116.68594pt>
+<images/clam3.png, id=30, 152.82094pt x 116.68594pt>
 File: images/clam3.png Graphic file (type png)
  <use images/clam3.png>
 Package pdftex.def Info: images/clam3.png used on input line 130.
 (pdftex.def)             Requested size: 125.18227pt x 95.58159pt.
 
-[8
 
- <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project/L
-atex/images/clam1.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/I
-TECH/Project/Project/Latex/images/clam2.png> <//win4.ad.dcs.gla.ac.uk/it13/home
-s/2108535r/Downloads/ITECH/Project/Project/Latex/images/clam3.png>]
-<images/gain1.png, id=52, 198.7425pt x 143.78719pt>
+LaTeX Warning: Reference `fig:clams' on page 5 undefined on input line 136.
+
+[5
+
+ <./images/clam1.png> <./images/clam2.png> <./images/clam3.png>]
+<images/gain1.png, id=40, 198.7425pt x 143.78719pt>
 File: images/gain1.png Graphic file (type png)
  <use images/gain1.png>
 Package pdftex.def Info: images/gain1.png used on input line 146.
 (pdftex.def)             Requested size: 166.90544pt x 120.75627pt.
 
-<images/gain2.png, id=53, 195.73125pt x 145.29282pt>
+<images/gain2.png, id=41, 195.73125pt x 145.29282pt>
 File: images/gain2.png Graphic file (type png)
  <use images/gain2.png>
 Package pdftex.def Info: images/gain2.png used on input line 159.
 (pdftex.def)             Requested size: 204.46458pt x 151.78378pt.
 
-<images/gain3.png, id=54, 197.23688pt x 157.33781pt>
+<images/gain3.png, id=42, 197.23688pt x 157.33781pt>
 File: images/gain3.png Graphic file (type png)
  <use images/gain3.png>
 Package pdftex.def Info: images/gain3.png used on input line 165.
@@ -623,128 +628,131 @@ Package pdftex.def Info: images/gain3.png used on input line 165.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[9 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project
-/Latex/images/gain1.png>]
+[6 <./images/gain1.png>]
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 180.
 
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1phv.fd"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-) [10 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Proj
-ect/Latex/images/gain2.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downlo
-ads/ITECH/Project/Project/Latex/images/gain3.png>] [11]
-<images/enrichment1.png, id=68, 490.83376pt x 198.7425pt>
+) [7 <./images/gain2.png> <./images/gain3.png>] [8]
+
+LaTeX Warning: Reference `eq:main' on page 9 undefined on input line 240.
+
+<images/enrichment1.png, id=57, 490.83376pt x 198.7425pt>
 File: images/enrichment1.png Graphic file (type png)
 
 <use images/enrichment1.png>
 Package pdftex.def Info: images/enrichment1.png used on input line 253.
 (pdftex.def)             Requested size: 333.81726pt x 135.1704pt.
 
-<images/enrichment2.png, id=69, 483.30562pt x 212.29312pt>
+<images/enrichment2.png, id=58, 483.30562pt x 212.29312pt>
 File: images/enrichment2.png Graphic file (type png)
 
 <use images/enrichment2.png>
 Package pdftex.def Info: images/enrichment2.png used on input line 259.
 (pdftex.def)             Requested size: 333.81726pt x 146.63466pt.
 
-<images/enricment3.png, id=70, 482.55281pt x 176.15813pt>
+<images/enricment3.png, id=59, 482.55281pt x 176.15813pt>
 File: images/enricment3.png Graphic file (type png)
 
 <use images/enricment3.png>
 Package pdftex.def Info: images/enricment3.png used on input line 265.
 (pdftex.def)             Requested size: 333.81726pt x 121.86641pt.
- [12] [13 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/
-Project/Latex/images/enrichment1.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/21085
-35r/Downloads/ITECH/Project/Project/Latex/images/enrichment2.png> <//win4.ad.dc
-s.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project/Latex/images/en
-ricment3.png>] [14]
+ [9] [10 <./images/enrichment1.png> <./images/enrichment2.png> <./images/enricm
+ent3.png>] [11]
 Chapter 3.
-<images/nav.png, id=84, 1444.64719pt x 100.12407pt>
+<images/nav.png, id=76, 1444.64719pt x 100.12407pt>
 File: images/nav.png Graphic file (type png)
  <use images/nav.png>
 Package pdftex.def Info: images/nav.png used on input line 298.
 (pdftex.def)             Requested size: 417.26999pt x 28.91911pt.
 
-[15
+[12
 
- <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Project/L
-atex/images/nav.png>]
-<images/homescreen.png, id=88, 1428.83812pt x 733.99219pt>
+ <./images/nav.png>]
+<images/homescreen.png, id=80, 1428.83812pt x 733.99219pt>
 File: images/homescreen.png Graphic file (type png)
 
 <use images/homescreen.png>
 Package pdftex.def Info: images/homescreen.png used on input line 324.
 (pdftex.def)             Requested size: 500.7227pt x 257.2147pt.
 
-<images/register.png, id=89, 571.38469pt x 621.07031pt>
+<images/register.png, id=81, 571.38469pt x 621.07031pt>
 File: images/register.png Graphic file (type png)
 
 <use images/register.png>
 Package pdftex.def Info: images/register.png used on input line 333.
 (pdftex.def)             Requested size: 208.635pt x 226.77881pt.
- [16 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Proje
-ct/Latex/images/homescreen.png>]
-<images/worldmap.png, id=93, 1445.4pt x 813.0375pt>
+ [13 <./images/homescreen.png>]
+<images/worldmap.png, id=85, 1445.4pt x 813.0375pt>
 File: images/worldmap.png Graphic file (type png)
  <use images/worldmap.png>
 Package pdftex.def Info: images/worldmap.png used on input line 347.
 (pdftex.def)             Requested size: 500.7227pt x 281.652pt.
 
-[17 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/register.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downl
-oads/ITECH/Project/Project/Latex/images/worldmap.png>]
-<images/cali.png, id=98, 648.92438pt x 606.76688pt>
+[14 <./images/register.png> <./images/worldmap.png>]
+<images/cali.png, id=89, 648.92438pt x 606.76688pt>
 File: images/cali.png Graphic file (type png)
  <use images/cali.png>
 Package pdftex.def Info: images/cali.png used on input line 356.
 (pdftex.def)             Requested size: 166.90544pt x 156.06136pt.
 
-<images/mine.png, id=99, 1431.84938pt x 681.29532pt>
+<images/mine.png, id=90, 1431.84938pt x 681.29532pt>
 File: images/mine.png Graphic file (type png)
  <use images/mine.png>
 Package pdftex.def Info: images/mine.png used on input line 365.
 (pdftex.def)             Requested size: 500.7227pt x 238.24901pt.
 
-[18 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/cali.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads
-/ITECH/Project/Project/Latex/images/mine.png>]
-<images/generalstore.png, id=103, 1428.83812pt x 730.98094pt>
+[15 <./images/cali.png> <./images/mine.png>]
+<images/generalstore.png, id=94, 1428.83812pt x 730.98094pt>
 File: images/generalstore.png Graphic file (type png)
 
 <use images/generalstore.png>
 Package pdftex.def Info: images/generalstore.png used on input line 383.
 (pdftex.def)             Requested size: 500.7227pt x 256.15947pt.
- [19 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Proje
-ct/Latex/images/generalstore.png>]
-<images/leaderboards.png, id=107, 1427.3325pt x 738.50906pt>
+
+
+LaTeX Warning: Reference `fig: generalstore' on page 16 undefined on input line
+ 388.
+
+[16 <./images/generalstore.png>]
+<images/leaderboards.png, id=98, 1427.3325pt x 738.50906pt>
 File: images/leaderboards.png Graphic file (type png)
 
 <use images/leaderboards.png>
 Package pdftex.def Info: images/leaderboards.png used on input line 397.
 (pdftex.def)             Requested size: 500.7227pt x 259.07928pt.
- [20 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Proje
-ct/Latex/images/leaderboards.png>]
-<images/tutorial.png, id=111, 1429.59094pt x 691.83469pt>
+
+
+LaTeX Warning: Reference `fig: leaderboards' on page 17 undefined on input line
+ 402.
+
+[17 <./images/leaderboards.png>]
+<images/tutorial.png, id=103, 1429.59094pt x 691.83469pt>
 File: images/tutorial.png Graphic file (type png)
 
 <use images/tutorial.png>
 Package pdftex.def Info: images/tutorial.png used on input line 418.
 (pdftex.def)             Requested size: 500.7227pt x 242.31467pt.
 
-<images/achievements.png, id=112, 1430.34375pt x 737.00343pt>
+<images/achievements.png, id=104, 1430.34375pt x 737.00343pt>
 File: images/achievements.png Graphic file (type png)
 
 <use images/achievements.png>
 Package pdftex.def Info: images/achievements.png used on input line 429.
 (pdftex.def)             Requested size: 500.7227pt x 258.00005pt.
 
-<images/awesome.png, id=113, 34.1275pt x 34.1275pt>
+
+LaTeX Warning: Reference `fig: specialachievements' on page 18 undefined on inp
+ut line 434.
+
+<images/awesome.png, id=105, 34.1275pt x 34.1275pt>
 File: images/awesome.png Graphic file (type png)
  <use images/awesome.png>
 Package pdftex.def Info: images/awesome.png used on input line 440.
 (pdftex.def)             Requested size: 66.76115pt x 66.76546pt.
 
-<images/banana.png, id=114, 34.1275pt x 34.1275pt>
+<images/banana.png, id=106, 34.1275pt x 34.1275pt>
 File: images/banana.png Graphic file (type png)
  <use images/banana.png>
 Package pdftex.def Info: images/banana.png used on input line 448.
@@ -753,8 +761,7 @@ Package pdftex.def Info: images/banana.png used on input line 448.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/tutorial.png>]
+[18 <./images/tutorial.png>]
 File: images/worldmap.png Graphic file (type png)
  <use images/worldmap.png>
 Package pdftex.def Info: images/worldmap.png used on input line 474.
@@ -767,43 +774,40 @@ Package pdftex.def Info: images/cali.png used on input line 480.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/achievements.png>]
-<images/endofday.png, id=121, 1425.82687pt x 742.27313pt>
+[19 <./images/achievements.png>]
+<images/endofday.png, id=113, 1425.82687pt x 742.27313pt>
 File: images/endofday.png Graphic file (type png)
 
 <use images/endofday.png>
 Package pdftex.def Info: images/endofday.png used on input line 522.
 (pdftex.def)             Requested size: 250.36453pt x 130.33014pt.
 
-<images/bronze.png, id=122, 303.38344pt x 487.06969pt>
+<images/bronze.png, id=114, 303.38344pt x 487.06969pt>
 File: images/bronze.png Graphic file (type png)
  <use images/bronze.png>
 Package pdftex.def Info: images/bronze.png used on input line 528.
 (pdftex.def)             Requested size: 83.45271pt x 133.97801pt.
 
-[23 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/awesome.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downlo
-ads/ITECH/Project/Project/Latex/images/banana.png>]
+[20 <./images/awesome.png> <./images/banana.png>]
 File: images/generalstore.png Graphic file (type png)
 
 <use images/generalstore.png>
 Package pdftex.def Info: images/generalstore.png used on input line 544.
 (pdftex.def)             Requested size: 250.36453pt x 128.07973pt.
 
-<images/nogold.png, id=129, 301.8778pt x 183.68625pt>
+<images/nogold.png, id=120, 301.8778pt x 183.68625pt>
 File: images/nogold.png Graphic file (type png)
  <use images/nogold.png>
 Package pdftex.def Info: images/nogold.png used on input line 550.
 (pdftex.def)             Requested size: 125.18227pt x 76.1695pt.
 
-<images/yukon.png, id=130, 1437.11906pt x 730.98094pt>
+<images/yukon.png, id=121, 1437.11906pt x 730.98094pt>
 File: images/yukon.png Graphic file (type png)
  <use images/yukon.png>
 Package pdftex.def Info: images/yukon.png used on input line 560.
 (pdftex.def)             Requested size: 250.36453pt x 127.34358pt.
 
-<images/yuki.png, id=131, 557.83406pt x 536.75531pt>
+<images/yuki.png, id=122, 557.83406pt x 536.75531pt>
 File: images/yuki.png Graphic file (type png)
  <use images/yuki.png>
 Package pdftex.def Info: images/yuki.png used on input line 566.
@@ -812,7 +816,7 @@ Package pdftex.def Info: images/yuki.png used on input line 566.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<images/gameover.png, id=132, 1443.14156pt x 732.48656pt>
+<images/gameover.png, id=123, 1443.14156pt x 732.48656pt>
 File: images/gameover.png Graphic file (type png)
 
 <use images/gameover.png>
@@ -822,7 +826,7 @@ Package pdftex.def Info: images/gameover.png used on input line 573.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/architecture.png, id=133, 836.12375pt x 229.85875pt>
+<images/architecture.png, id=124, 836.12375pt x 229.85875pt>
 File: images/architecture.png Graphic file (type png)
 
 <use images/architecture.png>
@@ -832,38 +836,49 @@ Package pdftex.def Info: images/architecture.png used on input line 580.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[24 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/endofday.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downl
-oads/ITECH/Project/Project/Latex/images/bronze.png> <//win4.ad.dcs.gla.ac.uk/it
-13/homes/2108535r/Downloads/ITECH/Project/Project/Latex/images/nogold.png>]
-<images/er.png, id=137, 858.20625pt x 756.8275pt>
+
+LaTeX Warning: Reference `subsec:Django' on page 21 undefined on input line 583
+.
+
+[21 <./images/endofday.png> <./images/bronze.png> <./images/nogold.png>]
+<images/er.png, id=128, 858.20625pt x 756.8275pt>
 File: images/er.png Graphic file (type png)
  <use images/er.png>
 Package pdftex.def Info: images/er.png used on input line 588.
 (pdftex.def)             Requested size: 292.0877pt x 257.58356pt.
- [25 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Proje
-ct/Latex/images/yukon.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloa
-ds/ITECH/Project/Project/Latex/images/yuki.png> <//win4.ad.dcs.gla.ac.uk/it13/h
-omes/2108535r/Downloads/ITECH/Project/Project/Latex/images/gameover.png>]
+ [22 <./images/yukon.png> <./images/yuki.png> <./images/gameover.png>]
 
-LaTeX Warning: Reference `subsec:code' on page 26 undefined on input line 596.
+LaTeX Warning: Reference `subsec:code' on page 23 undefined on input line 596.
 
 
-LaTeX Warning: Reference `subsec:code' on page 26 undefined on input line 598.
+LaTeX Warning: Reference `subsec:code' on page 23 undefined on input line 598.
 
-[26 <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/Downloads/ITECH/Project/Projec
-t/Latex/images/architecture.png> <//win4.ad.dcs.gla.ac.uk/it13/homes/2108535r/D
-ownloads/ITECH/Project/Project/Latex/images/er.png>] [27] [28]
+[23 <./images/architecture.png> <./images/er.png>]
+
+LaTeX Warning: Reference `subsec:boot' on page 24 undefined on input line 614.
+
+
+LaTeX Warning: Reference `app: firstapp' on page 24 undefined on input line 620
+.
+
+
+LaTeX Warning: Reference `app: firstapp' on page 24 undefined on input line 624
+.
+
+[24] [25]
 Chapter 4.
-[29
 
-]
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\listings\lstlang1.sty"
+LaTeX Warning: Reference `sec:ER' on page 26 undefined on input line 641.
+
+
+LaTeX Warning: Reference `subsec:AJAX' on page 26 undefined on input line 641.
+
+[26
+
+] (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\views.py
+(./views.py
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 909.
 
@@ -871,71 +886,108 @@ Overfull \hbox (5.13431pt too wide) in paragraph at lines 909--910
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-)
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\views.py)
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\listings\lstlang1.sty"
+) (./views.py)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-("\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535R\Application Data\MiKTeX\2.9\tex\l
-atex\listings\lstmisc.sty"
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 )
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\game2.html) [30]
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\views.py) [31]
-Chapter 5.
-[32
+(./game2.html) [27] (./views.py) (./yieldgen.py)
 
-]
-Appendix A.
+LaTeX Warning: Reference `subsec:Django' on page 28 undefined on input line 674
+.
+
+
+LaTeX Warning: Reference `subsec:AJAX' on page 28 undefined on input line 674.
+
+[28] (./custom.css)
+Underfull \hbox (badness 10000) in paragraph at lines 684--688
+
+ []
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 698--702
+
+ []
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2014/03/04 1.5c listings language file
+)
+(./tripprova.js)
+Underfull \hbox (badness 10000) in paragraph at lines 707--711
+
+ []
+
+[30] (./dig-ajax.js)
+
+LaTeX Warning: Reference `subsec:python' on page 31 undefined on input line 736
+.
+
+
+LaTeX Warning: Reference `app:firstapp' on page 31 undefined on input line 738.
+
+
+[31]
+
+LaTeX Warning: Reference `subsec:Django' on page 32 undefined on input line 739
+.
+
+
+LaTeX Warning: Reference `subsec:AJAX' on page 32 undefined on input line 740.
+
+
+LaTeX Warning: Reference `subsec:CSS3' on page 32 undefined on input line 741.
+
+[32]
+Chapter 5.
 [33
 
 ]
-Appendix B.
+Appendix A.
+[34
 
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\mproj.bbl [34
+]
+Appendix B.
+(./mproj.bbl [35
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [35
+) [36
 
-]
-(\\win4.ad.dcs.gla.ac.uk\it13\homes\2108535r\Downloads\ITECH\Project\Project\La
-tex\mproj.aux)
+] (./mproj.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 8144 strings out of 494049
- 121242 string characters out of 3148351
- 252076 words of memory out of 3000000
- 11265 multiletter control sequences out of 15000+200000
- 52353 words of font info for 66 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 42i,21n,52p,1299b,1232s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
-sfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program 
-Files/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX 2
-.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on mproj.pdf (37 pages, 18063590 bytes).
+ 8611 strings out of 493117
+ 125756 string characters out of 6135433
+ 239560 words of memory out of 5000000
+ 11870 multiletter control sequences out of 15000+600000
+ 52666 words of font info for 67 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 42i,21n,52p,1217b,1232s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2014/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/20
+14/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+4/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2014/
+texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/texmf-d
+ist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fon
+ts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on mproj.pdf (38 pages, 18057380 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
+ 217 PDF objects out of 1000 (max. 8388607)
+ 122 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  151 words of extra memory for PDF output out of 10000 (max. 10000000)
 
