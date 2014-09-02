@@ -5,9 +5,7 @@ var trip2 = new Trip([
         content: 'Hello and welcome to the <b>Gold Digger tutorial!</b>'
         position: "s"
     },
- 
  ...   
-    
 $(document).ready(function () {
     trip2.start();
 });

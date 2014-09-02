@@ -631,11 +631,21 @@ Most of the items and achievements icons were made by Alis, a pixel artist who m
 
 \section{Development Methods}
 \section{Heuristic Evaluation}
-\section{Testing}
-\subsection{Unit Testing}
-\subsection{Live Testing}
+
 \section{Technologies}
+
+\subsection{Python}
+\label{subsec:python}
+
+Python is one of the most popular programming languages with great features such as a clear syntax and an extensive amount of documentation, libraries and native methods.
+The choice of using Python as a main programming language was very much tied to the web development framework chosen (Django). Nevertheless, Python has many advantages of its own, that became very important to the development of Gold Digger.  The code snippet below, belongs to one of the yield generators (six in total), that are responsible for assigning a certain amount of gold to each layer of a mine. Two things are needed from the yield generators. The first one is that they generate yield according to a function whose parameters can be modified in order to balance the gameplay or extract different data from the users. The second one is that they generate yields with a certain randomness so that the user is not faced with the same mine over and over. 
+
+\lstinputlisting[language=Python, firstline=260, lastline=270]{yieldgen.py}
+
+Using Python, it is very easy to fulfill both of these requirements. The latter one is taken care of on line 3, where a simple call of the \textit{random.randint()} method allows us to assign random integer in range -10 <= b <= 5 and thus modify the displacement of the curve. The former requirement is fulfilled on line 5 where the quadratic yield function is defined with very simple syntax and the employment of the  \textit{pow()} method. 
+
 \subsection{Django}
+\label{subsec:Django}
 Django is a very powerful, well documented, easy to use, extensive web development framework based on python. In Gold Digger, it provides the base on which all of the other technologies employed are built upon. The choice of Django, as a web development framework has been made for all the reasons listed above, but some were important in particular. Firstly, Django uses a Model View Template architecture. Each url request is handled by the Model middleware in Django and redirected to a specific View associated with it. The view, in turn, handles the request and provides the data to be passed to a the Template that further processes it and diplays it (see below for Django template code).
 
  Another of Django's main features is the handling of SQLite databases through simple python commands. Because each user is associated with a User Profile object, frequent update of the database was needed in order to update all the game values and stats. The code snippet below, for example, is responsible for assigning an achievement to a player. This requires the method to be passed a reference of the user as well as reference to the achievement she gained and then, the user hasn't earn the achievement already, create a new row in the User Achievement database table (see \ref{sec:ER}. Django allows us to do this very easily, by simply checking if the user-achievement pair already exist in the database (on line 4) and, if not, go ahead and create it. As we can see, this only takes a few lines of very simple code. In the code snippet, the method returns a object (\emph{myResponse}) containing all the information regarding the achievement in order to be sent back as a response to an AJAX call (see \ref{subsec:AJAX}) an be subsequently displayed to the user. 
@@ -658,16 +668,6 @@ Finally, because some variables associated with the user are stored in the Gold 
 
 The code snippet above is employed in the view that handles the choice of a location in the world map. Here the session values \textit{hasmine} and \textit{mine\_type} are set to 'False' and 'null' so that a new mine can be created by the game view, the time remaining is set to 100 (beginning of the day) and the current gold is set to 0, since the player hasn't started digging in this particular location yet. Using Django, these variables are associated with the particular user session and can be used by all the other view without being singularly passed.
 
-\label{subsec:Django}
-\subsection{Python}
-\label{subsec:python}
-
-Python is one of the most popular programming languages with great features such as a clear syntax and an extensive amount of documentation, libraries and native methods.
-The choice of using Python as a main programming language was very much tied to the web development framework chosen (Django). Nevertheless, Python has many advantages of its own, that became very important to the development of Gold Digger.  The code snippet below, belongs to one of the yield generators (six in total), that are responsible for assigning a certain amount of gold to each layer of a mine. Two things are needed from the yield generators. The first one is that they generate yield according to a function whose parameters can be modified in order to balance the gameplay or extract different data from the users. The second one is that they generate yields with a certain randomness so that the user is not faced with the same mine over and over. 
-
-\lstinputlisting[language=Python, firstline=260, lastline=270]{yieldgen.py}
-
-Using Python, it is very easy to fulfill both of these requirements. The latter one is taken care of on line 3, where a simple call of the \textit{random.randint} method allows us to assign random integer in range -10 <= b <= 5 and thus modify the displacement of the curve. The former requirement is fulfilled on line 5 where the quadratic yield function is defined with very simple syntax and the employment of the  \textit{pow} method. 
 
 \subsection{HTML5}
 
@@ -727,6 +727,13 @@ In the code snipped above, we can see part of the AJAX POST responsible for the 
 
 \subsection{Code Flow}
 
+\begin{figure} [ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{classdiagram.png}}
+	\caption{The class diagram illustrates the way the game object is prepared and sent to the template for display}
+\end{figure}
+
+
 In order to better explain how all the previously listed technologies work together, in this section we provide a description of the functioning of one of the core aspects of Gold Digger as a game: digging in a mine. 
 
 \begin{enumerate}
@@ -740,7 +747,12 @@ In order to better explain how all the previously listed technologies work toget
 	\item{When the 'dig' button is clicked (or the Enter key is pressed), an AJAX POST is sent to the \textbf{ajaxview} view, where all of the server side operations are take care of (like updating the 'current gold' session variable) and a JSON dictionary containing the relevant information (for instance, how much gold the user has been able to extract) is sent back to the AJAX file (see \ref{subsec:AJAX}) }
 	\item{Finally, the appropriate content on the page is updated. A new layer of scaffolding is displayed with an animation (see \ref{subsec:CSS3}), together with the gold nuggets and a small message to the user (like ``GOOD`` or ``PAY DAY``). Finally, the scrollbar is adjusted so that the relevant part of the page is displayed. The page is not  reloaded and the user can continue digging.}
 	\end{enumerate}
-	
+
+\section{Testing}
+\subsection{Unit Testing}
+\subsection{Live Testing}
+
+
 %EXPLAIN HOW A DIG WORKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Results and Data}\label{results}

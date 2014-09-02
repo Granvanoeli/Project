@@ -3,15 +3,12 @@
 
 #home{
     background-position: 25%;
-
     background-image: url(/static/Wild%20West%20Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 20%;
     padding-top: 5%;
-
     margin-bottom: 0;
-
 }
 
 #about{
