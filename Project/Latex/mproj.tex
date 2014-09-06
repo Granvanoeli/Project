@@ -13,6 +13,7 @@
 \usepackage{fancyref}
 \usepackage{amsmath}
 \usepackage{listings}
+\usepackage[font=scriptsize]{caption}
 \lstdefinestyle{customc}{
 basicstyle=\footnotesize,
 numbers=left,
@@ -21,6 +22,7 @@ commentstyle=\itshape\color{purple!40!black},
 stringstyle=\color{green!40!black},
 }
 \lstset{escapechar=@,style=customc}
+
 
 
 \graphicspath{{images/}}
@@ -76,6 +78,22 @@ acknowledgements go here
 \chapter{Introduction}\label{intro}
 
 \section{Overview}
+
+Information management is becoming an essential part of our professional and personal lives. Whether it is in order to write a report, to do research, or simply to look for inspiration, we often turn to the internet, and increasingly less to paper-based media, to search for the information we need.
+Yet, to be able to make use of the vast resources at our disposal, it is increasingly important to be effective in finding ways to shorten the time spent searching, while maximising the amount of useful information found, or the 'rate of gain'.
+The aim of this project was therefore to provide insights into the strategies users apply to search for information and shed light on how they make searching more effective. There are however many different parameters that influence our rate of success when searching for information, such as our familiarity with the kind of information we are searching for, and our skill in using the searching tools themselves.
+The challenge and main objective of this project was to create a context in which all users can have the same starting conditions irrespective of pre-existing abilities, and subsequently analyse and investigate their searching behaviour. 
+
+To this purpose, we designed a game that would serve as environment to investigate searching behaviour while being abstracted from any potentially biasing context. This game, Gold Digger, simulates the actions and decisions users would face while searching for information, but not actually present them with an information retrieval task.
+This way, the game would make it possible to put users on the same starting point, since previous insight on information retrieval would not be applicable. As an experimental platform, it allows easy modification of its parameters and could therefore be used to carry out multiple experiments with different focus. In addition to this, the game also presents a familiar environment to users where they can have fun and will be motivated to use the system over a long time.  
+
+In Gold Digger, searching is represented by entering a mine. Examining one of the pieces of information we find and thereby acquiring useful information, is represented by digging and obtaining gold. The amount of gold that the player is able to extract from a given mine, is determined by their ability to decide whether the mine is still profitable to dig in or if it is better to move to a new mine instead, much in the same way we would decide to examine the list of links returned by a search engine one by one, or enter a new query instead. Because digging and moving both have a cost in time units, the player will need to find the most profitable way to act before the end of the day. Entering a mine also has a cost, so players will need to make sure to acquire enough gold before the end of one day to be able to continue mining. 
+Players can purchase a variety of items that will allow them to gain more gold, dig or move at a lower cost or even be able to get clues on the profitability to dig in a mine. These items represent the 'enrichment strategies’ we use while looking for information, for instance having different tabs open on a browser to quickly flick through different pages. Finally, players are also able to gain special achievements for their performance and be ranked in leaderboards.
+Gold Digger is therefore an effective and creative representation of information retrieval that gathers invaluable information to further analyse search behaviour and can easily be adapted to evolving research aims, as well as keeping players engaged and motivated to take part. As a result, a very large amount of (completely anonymised) data on registered users’ performance has been generated and is currently being processed. 
+
+Today, the ability to retrieve greater amounts of useful information in smaller amounts of time is becoming an invaluable skill to navigate both our professional and private lives. 
+The insights Gold Digger can provide will help to improve information retrieval techniques, to optimise content design, and could make the skills needed to search for, find, manipulate, and make sense of vast amounts of information more accessible. 
+
 \subsection{Problem statement}
 This project proposes to analyse user's searching behaviour in a context deprived of any cues 
 that could allow them to exploit any previous experience in the task in order to achieve an 
@@ -573,11 +591,14 @@ Jill also receives the 'Bronze Coin' achievement for having dug more than 50 gol
            \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{gameover.png}}
 \end{figure}
 Because she doesn't have enough money to enter any of the mine, Jill loses her first game. However, clicking on 'Back to Map' will restore her to the initial conditions, if she bought any items they wold be lost.
+
+
 \section{System Architechture}
 
 \begin{figure} [h] 
 	\centering
            \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{architecture.png}}
+           \caption{Gold Digger's System Architecture}
 \end{figure}
 
 Gold Digger is based on a 3-tier architecture. Each user is able to create a player account (client) containing all of the details entered upon registration, together with a set of game variables, set to their starting values. The client side renders HTML5 and CSS3 elements and graphics while updates to the game states are done mostly through AJAX, in order to avoid reloading the page. The game logic is coded in the middleware using the python-based Django framework (see \ref {subsec:Django}). All of the user profiles as well as the other game objects and achievements are stored in the database while the corresponding graphics, as well as the rest of the game graphics are stored in the project's static and media folders. Finally, the middleware continuously updates a log file in order to monitor user behaviour and gather data to be parsed and analysed at a later stage.
@@ -621,7 +642,7 @@ The World Map was created by importing a set of freeware game tiles into a freew
 
 \textbf{Items and Achievements}
 
-Most of the items and achievements icons were made by Alis, a pixel artist who made them available for public usage (see \ref{app: firstapp}). However a minor percentage of the items were created by modifying sprites of the popular game METAL SLUG  by SNK/Playmore. These sprites are all properties of their respective owners and no copyright is claimed upon them. 
+Most of the items and achievements icons were made by Alis, a pixel artist who made them available for public usage (see appendix \ref{app: firstapp}). However a minor percentage of the items were created by modifying sprites of the popular game METAL SLUG  by SNK/Playmore. These sprites are all properties of their respective owners and no copyright is claimed upon them. 
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -638,48 +659,39 @@ Most of the items and achievements icons were made by Alis, a pixel artist who m
 \label{subsec:python}
 
 Python is one of the most popular programming languages with great features such as a clear syntax and an extensive amount of documentation, libraries and native methods.
-The choice of using Python as a main programming language was very much tied to the web development framework chosen (Django). Nevertheless, Python has many advantages of its own, that became very important to the development of Gold Digger.  The code snippet below, belongs to one of the yield generators (six in total), that are responsible for assigning a certain amount of gold to each layer of a mine. Two things are needed from the yield generators. The first one is that they generate yield according to a function whose parameters can be modified in order to balance the gameplay or extract different data from the users. The second one is that they generate yields with a certain randomness so that the user is not faced with the same mine over and over. 
+The choice of using Python as a main programming language was very much tied to the web development framework chosen (Django). Nevertheless, Python has many advantages of its own, that became very important to the development of Gold Digger.  Built in methods, such as \textit{random.randint()} (to generate random integers) and \textit{pow()} (for exponentiation) were of great help in the the development of the yield functions for each mine. Furthermore, thanks to the \textit{list} object, it is very easy to create, manipulate, sort and modify both arrays and list, which proved very useful, given the structure of each mine. Finally, Python dictionaries, allow us to store pairs of values and retrieve them seamlessly in just a few lines of code which, given the number of variables each game object has to handle, is a great advantage, since then we don't need to handle handle them one by one.
 
-\lstinputlisting[language=Python, firstline=260, lastline=270]{yieldgen.py}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CODE EXAMPLE (PYTHON)
+%
+%The code snippet below, belongs to one of the yield generators (six in total), that are responsible for assigning a certain amount of gold to each layer of a mine. Two things are needed from the yield generators. The first one is that they generate yield according to a function whose parameters can be modified in order to balance the gameplay or extract different data from the users. The second one is that they generate yields with a certain randomness so that the user is not faced with the same mine over and over. 
 
-Using Python, it is very easy to fulfill both of these requirements. The latter one is taken care of on line 3, where a simple call of the \textit{random.randint()} method allows us to assign random integer in range -10 <= b <= 5 and thus modify the displacement of the curve. The former requirement is fulfilled on line 5 where the quadratic yield function is defined with very simple syntax and the employment of the  \textit{pow()} method. 
+%\lstinputlisting[language=Python, firstline=260, lastline=270]{yieldgen.py}
+
+%Using Python, it is very easy to fulfill both of these requirements. The latter one is taken care of on line 3, where a simple call of the \textit{random.randint()} method allows us to assign random integer in range -10 <= b <= 5 and thus modify the displacement of the curve. The former requirement is fulfilled on line 5 where the quadratic yield function is defined with very simple syntax and the employment of the  \textit{pow()} method. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END CODE EXAMPLE (PYTHON)
 
 \subsection{Django}
 \label{subsec:Django}
-Django is a very powerful, well documented, easy to use, extensive web development framework based on python. In Gold Digger, it provides the base on which all of the other technologies employed are built upon. The choice of Django, as a web development framework has been made for all the reasons listed above, but some were important in particular. Firstly, Django uses a Model View Template architecture. Each url request is handled by the Model middleware in Django and redirected to a specific View associated with it. The view, in turn, handles the request and provides the data to be passed to a the Template that further processes it and diplays it (see below for Django template code).
+Django is a very powerful, well documented, easy to use, extensive web development framework based on python. In Gold Digger, it provides the base on which all of the other technologies employed are built upon. The choice of Django as a web development framework has been made for all the reasons listed above, but some were important in particular. Firstly, Django uses a Model View Template architecture. Each url request is handled by the Model middleware in Django and redirected to a specific View associated with it. The view, in turn, handles the request and provides the data to be passed to a the Template that further processes it and diSplays it (see below for Django template code). %%%
+Another one of Django's main features is the handling of SQLite databases through simple python commands. Because each user is associated with a User Profile object, frequent update of the database was needed in order to update all the game values and player stats. In Django, this is very easy and intuitive and accessing the database data can be done in any of the views seamlessly.
 
- Another of Django's main features is the handling of SQLite databases through simple python commands. Because each user is associated with a User Profile object, frequent update of the database was needed in order to update all the game values and stats. The code snippet below, for example, is responsible for assigning an achievement to a player. This requires the method to be passed a reference of the user as well as reference to the achievement she gained and then, the user hasn't earn the achievement already, create a new row in the User Achievement database table (see \ref{sec:ER}. Django allows us to do this very easily, by simply checking if the user-achievement pair already exist in the database (on line 4) and, if not, go ahead and create it. As we can see, this only takes a few lines of very simple code. In the code snippet, the method returns a object (\emph{myResponse}) containing all the information regarding the achievement in order to be sent back as a response to an AJAX call (see \ref{subsec:AJAX}) an be subsequently displayed to the user. 
-
-\lstinputlisting[language=Python, firstline=907, lastline=924]{views.py}
-
-In this second code snippet we can also see how easy Django makes the querying and ordering of database objects. Here all the User Profile objects are pulled from the database and ordered according to different game stats to be displayed in the leaderboards page with the \textit{.order\_by} method.
-
-\lstinputlisting[language=Python, firstline=296, lastline=304]{views.py}
-
-Another fundamental Django feature are \textbf{Django tags}. Django tags are enclosed in \textbf{\{\% ... \%\}} tags and allow the display of content in HTML documents. In the snippet below, for example, the HTML template is passed an array of 'block' objects which represent the layers of the mine. This array is iterated through using the \textbf{\{\% for block in blocks \%\}}.  If the user's visibility (determined by her scanning equipment) and if the layer hasn't already been dug, the appropriate cues are displayed, using a second type of Django tags, enclosed between double curly braces. 
-
-\lstinputlisting[language=HTML, firstline=136, lastline=147]{game2.html}
-
-These double curly braces allow, for example, for the appropriate gold flecks cues to be displayed. We can see this on line 6 where \emph{class=row\_flecks\_\{\{ block.cue \}\}} will display a different row of flecks according to the value of \emph{\{\{  block.cue \}\}}
-
-Finally, because some variables associated with the user are stored in the Gold Digger database as discussed above, however, some other variable will need to change very often during the game but still need to be associated with each particular user.These are variables such as the user's current gold, the array of layers of each mine, and the number mines the user has been in. For them,  \textit{sessions} need to be implemented. Thankfully Django also offers session support:
-
-\lstinputlisting[language=Python, firstline=323, lastline=326]{views.py}
-
-The code snippet above is employed in the view that handles the choice of a location in the world map. Here the session values \textit{hasmine} and \textit{mine\_type} are set to 'False' and 'null' so that a new mine can be created by the game view, the time remaining is set to 100 (beginning of the day) and the current gold is set to 0, since the player hasn't started digging in this particular location yet. Using Django, these variables are associated with the particular user session and can be used by all the other view without being singularly passed.
+Furthermore, Django offers a template support through the use of \textbf{Django tags}. These Django-specific commands are enclosed in special \textbf{\{\% ...\%\}} tags and allow the advanced display of content and values sent from the views in HTML documents. Finally, Django offers session support, an easy login module, and a media server, which are all involved in the development and  functioning of Gold Digger
 
 
 \subsection{HTML5}
 
-HTML5 is the most common markup language for presenting content on the web. All of the elements of each page (visible and not) are defined by HTML5 tags, creating a structure in which content can then be easily styled thanks to CSS3 stylesheets and manipulated using both Django tags (see \ref{subsec:Django}) AJAX calls (see \ref{subsec:AJAX}). An example of both HTML5 styling and the usage of Django tags can be found in the Django section of this paper.
+HTML5 is the most common markup language for presenting content on the web. All of the elements of each page (visible and not) are defined by HTML5 tags, creating a structure in which content can then be easily styled thanks to CSS3 stylesheets and manipulated using Django tags (see \ref{subsec:Django}) AJAX calls (see \ref{subsec:AJAX}) and JQuery. Two of the most important HTML5 attributes, are the \textbf{class} and \textbf{id} attributes. Classes allow similar elements to have the same style, thus allowing us to maintain integrity of graphics throughout the website without having to modify the paramentes of every single element. Elements with the same classes will exhibit similar properties. Finally, the  \textbf{id} attribute, allows us to refer to particular elements when we want to modify or alter them in some way using technologies such as AJAX and JQuery (see \ref{subsec:JS})
 
 \subsection{CSS3}
 \label{subsec:CSS3}
-As mentioned in the previous section, styling is applied to HTML5 elements via reference to CSS3 stylesheets. In CSS3 sheets we can define the parameters for the styling of each class, id or element that is present in one of the templates that display a link to a particular stylesheet. In the example below, we can see how styling is applied to the element with id 'home': 
+As mentioned in the previous section, styling is applied to HTML5 elements via reference to CSS3 stylesheets. In CSS3 sheets we can define the parameters for the styling of each class, id or element that is present in one of the templates. If a template displays a link to a particular stylesheet, elements that display one of the classes defined in that stylesheet, will be formatted accordingly. In the example below, we can see how styling is applied to the element with id 'home': 
 
 \lstinputlisting[language=HTML, firstline=4, lastline=12]{custom.css}
 
 here, a background picture for the homepage heading is defined and set in place using the \textit{padding} parameters.Padding is one of the parameters for positioning and styling elements of that are associated with the HTML box model.
+
+Finally, CSS3 is indispensable in order to implement web page's responsiveness, in order for the pages to be displayed appropriately on screens of different sizes. There is more than one technique to make this possible but, in Gold Digger, we used \textbf{media tags} which specify the styling of particular items for different screen size ranges.
 
 \textbf{Animate.css}
 \\
@@ -692,6 +704,7 @@ In addition to offering the possibility to style HTML5 elements, CSS3 also offer
 Twitter Bootstrap uses a both CSS3 and Javascript to offer the possibility to apply sleek and minimalistic themes to webpages that implement a link to them. The theme used for Gold Digger, is '\textbf{Simplex}'  (by Thomas Park for Bootswatch) and it has been very useful for the organization and styling of the many elements of each page. Firstly, Bootstrap offers a very easy to use grid system, that allows us to easily divide any section of the page in columns and sub-columns. This can be seen throughout the website where the left side column hosts the side item panel, the middle column the main content (for example the layers of a mine) and the right column holds any additional information or just provides spacing. Secondly, Bootstrap comes equipped with Javascript plugins for the display of modals and tooltips. The former ones, for example, are used both in the world map to display the details of a location and on the main page, to host the registration form. Finally, Bootstrap allows to display continuity of colour and graphics throughout the website, since to equal elements always corresponds equal graphics.
 
 \subsection{Javascript and JQuery}
+\label{subsec:JS}
 
 JQuery is a very useful Javascript library that allows to apply special animations and features to elements of a webpage. By writing functions that are activated upon key press, click or hover, we can make webpages even more interesting and interactive than by simply using CSS3 and Bootstrap. There are two main applications of JQuery and Javascript that contributed to the look and functionality of Gold digger.
 
@@ -719,13 +732,54 @@ In Gold Digger, this plugin is used in any page in which the amount of gold is i
 \subsection{AJAX}
 \label{subsec:AJAX}
 
-AJAX stands for Asynchronous Javascript and it is an ensemble of technolgies that, together, allow a web page to exchange data with the server without having to reload the page itself. This is achieved through an extra layer of interaction between the server and the client that is known as AJAX Engine. In Gold Digger, AJAX is essential, especially in the 'game pages' in order for the user not to have a disjointed gaming experience in which, at every dig, the page is reloaded and has to be re-compiled every time. AJAX is also used in the general shop page, and in the assignment of achievements. Thanks to AJAX we are able to keep the game experience close to what the user would expect while playing any other stand alone game, since video games normally exist in a continuum and do not have to deal with the limitation of separating content in pages. 
+AJAX stands for Asynchronous Javascript and it is an ensemble of technolgies that, together, allow a web page to exchange data with the server without having to reload the page itself. This is achieved through an extra layer of interaction between the server and the client that is known as AJAX Engine. In Gold Digger, AJAX is essential, especially in the 'game pages' in order for the user not to have a disjointed gaming experience in which the page would have to be reloaded and be re-compiled every time. AJAX is also used in the general store page, to smoothly display the new item in the side item panel, and in the assignment of achievements, to display them as soon ar they are earned. Thanks to AJAX we are able to keep the game experience close to what the user would expect while playing any other stand alone game. Since video games normally exist in a 'continuous evironment', they do not have to deal with the limitation of separating content in  different pages, however, with AJAX we are able to successfully compensate for this issue. 
 
-\lstinputlisting[language=Java, firstline=31, lastline=36]{dig-ajax.js}
+\section{Development challenges}
+\label{sec:dev}
+Most of the development challenges we faced during the development of Gold Digger were related to the dual nature of Gold Digger. On the one hand, Gold Digger needed to be a game to experiment on searching behaviour and information retrieval, while on the other it had to be developed as a website, adding all the challenges of web development to the development of a game. Video games, even simple ones, usually exist in their own environment, in which all the variables needed can be easily accessed and modified. In a website instead, this continuity needs to be compensated for with session variables, access to user objects and above all, interaction with the database. 
 
-In the code snipped above, we can see part of the AJAX POST responsible for the update of the page after the user has decided to dig. Thanks to AJAX we can send, the position of the block that's been dug, its yield and the security crsf middleware token (required by Django) to \textbf{ajaxview} in the views.py file so that it can be processed and return an appropriate response. Then, content is updated on the page using JQuery and Javascrip. In this case the update consists in showing the appropriate amount of gold nuggets, updating the current gold, decreasing the units of time and regulate the scrolling position.
+Other challenges in the development of Gold Digger, were the design of the game mechanics and the implementations of the methods and functions involved in the creation of the yield a and cue arrays. These last ones needed to produce values  that, while being generated by a function, would still appear random enough to the user so as to offer a more challenging and interesting gaming experience. In the following subsections we outline some of the strategies used to overcome these challenges.
+\subsection{Creating mines}
+\label{subsec:creatingmines}
+(1)By selecting a location from the world map, the user sets the session variable 'location' to the name of the location selected and the '\textbf{has\_mine}' parameter to an empty string. Then, the request is redirected to the \textbf{game2} view in order to initilise all the game variables
 
-\subsection{Code Flow}
+(2)The \textbf{game2} view first checks if the '\textbf{has\_mine}' variable contains an empty string (meaning that this is the first mine of the day) and then uses the 'location' previously set (see (1)) value to determine which yield generator to select to generate yields. There are six different yield generators. Each one will generate a different array of ten values, representing the amount of gold in each layer of the mine.
+
+(3) Once we have a YieldGenerator, we need two more values to generate a mine. These are: '\textbf{accuracy}' and '\textbf{user}'. The former one contains the value of the tool's modifier which will be needed when generating cues. The latter one is needed for logging statements. By creating a \textbf{Mine} object, we automatically trigger the \textit{make\_mine()} method in the Mine class which, in turn, triggers the \textbf{make\_yields} method of the YieldGenerator thereby starting the process of generating yields.
+
+(4) All the different yield generators inherit the \textbf{make\_yields}  method from the YieldGenerator class and define their own. This way we are able to add as many yield generators as needed, by simply adding a new method implementing  \textbf{make\_yields}. Each yield generator defines its own static function that will generate an array of yields according to a specific equation that also introduces some randomness. Below, we can see the static function in charge of determining the yield of mines in Scotland.
+
+\lstinputlisting[language=Python, firstline=260, lastline=270]{yieldgen.py}
+
+On line 5 we have a quadratic function generating a parabola which it takes \textbf{x},  \textbf{a},  \textbf{k} and \textbf{b}  as paramenters. The value of \textbf{x} goes from 0 to 9 and it represents each of the layers of the mine. \textbf{a} determines the steepness of the parabola and  \textbf{k} determines the position of the parabola on the x axis (see \ref{app:firstapp} for a graph representation of each mine). This function will return a value \textbf{y} for each of the values of x. Each of these values, in turn, is rounded to the nearest integer and added to the array of yields. Finally, as we can see on line 3 a certain degree of randomness is introduced with \textbf{b}, which modifies the height of the parabola and consequently each one of the yields. \textbf{k} is also a random number in a range, this way, we don't run the risk of producing the same mine over and over again. All of the static functions in each of the YieldGenerators has some degree of randomness.
+
+(5) A cue is a number from 0 to 6 determinig which of the gold flecks patterns will be displayed over an undug layer of the mine. As we will see in the next section, each of these images is associated with a class and Django tags will use the value of 'cue' in each block to display the appropriate one. Once the array of yields is ready and has been received by \textit{make\_mine()}, it is passed to \textbf{cuegen.py} together with the value containing the highest of the yields and the 'accuracy' level we discussed in (3) in order to begin the process of determining the cue corresponding to each yield.   In \textbf{cuegen.py} we set the number of possible cue patterns, then, we go through the following operations:
+
+\begin{itemize}
+	\item{Determine the cue range: this is the maximum yield divided by the number of cue patterns. A different cue (gold flecks image) will be displayed in association with each range.}
+	\item{Determine the span: this is the span in which the cue will be chosen, the wider the span, the least likely the cue displayed will match the yield. It is a function of the maximum amount of point and the accuracy of the scanning tools. In the table below, we can see an example in which the maximum yield of the yield\_array is 42. If for instance the yield is \textbf{x} and the user's scanning equipment is the lamp the cue span will be wider (orange) and any of cue the cue patterns 1 to 3 might be displayed. However, if the user is using a sonar (green), which is more accurate, the cue pattern displayed will be either 2 or 3. This way, we are able to display cues in relation to the accuracy of a user's item. The better the item, the smaller the span.}
+\end{itemize}
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{span.png}}
+           \caption{}
+\end{figure}
+
+\begin{itemize}
+	\item{Choosing the cue: as discussed above, a value in the range of the cue span is chosen at random and the associated cue appended to the array of cues which is then returned to the Mine class}
+\end{itemize}
+
+(6) Now that we have both the array of yield and the array of cues, we are able to assign values to each of the \textbf{Block} objects representing each a layer of the mine. Each Block object, in fact, contains the following values:
+ 
+ \begin{itemize}
+ 	\item{\textbf{pos}: the position of the mine, an integer from 0 to 9}
+	\item{\textbf{gold}: the yield}
+	\item{\textbf{cue}: one of the 6 cue values representing one of the patterns}
+	\item{\textbf{dug}: a boolean determining if the mine has been dug or not}
+\end{itemize}
+
+(7) The array of blocks is sent over from the \textit{game2} view to the template, in a dictionary, together with all the other values relevant to the display of the game page.
 
 \begin{figure} [ht] 
 	\centering
@@ -733,28 +787,91 @@ In the code snipped above, we can see part of the AJAX POST responsible for the 
 	\caption{The class diagram illustrates the way the game object is prepared and sent to the template for display}
 \end{figure}
 
+\subsection{Digging: sessions AJAX}
 
-In order to better explain how all the previously listed technologies work together, in this section we provide a description of the functioning of one of the core aspects of Gold Digger as a game: digging in a mine. 
+A fundamental functionality that needed to be implemented in Gold Digger was the ability of the user to continue digging into a mine without having the page reload. When digging, a certain amount of gold is acquired, while a certain amount of time units are spent. At the same time, gold flecks layers or shaded layers of scaffolding, need to be replaced with the appropriate graphics and animations. Django helps us very much in the display of all the items needed in this process, however, once the page is rendered and displayed, we would need to reload it for any content to be altered, by redirecting to the appropriate view and get back to the template. 
 
-\begin{enumerate}
-	\item{By selecting a location from the world map, the user sets the session variable 'location' to the name of the location selected and the '\textbf{has\_mine}' parameter to an empty string.}. Then the request is redirected to the \textbf{game2} view in order to initiate the game.
-	\item{The \textbf{game2} view first checks if the '\textbf{has\_mine}' variable contains an empty string (meaning that this is the first mine of the day) and then uses the 'location' value to determine which yield generator to select to generate the appropriate yield. There are six different yield generators and each one will generate an array of ten values, representing the amount of gold in each layer of the mine. }	
-	\item{\textbf{yieldgen.py} is the module responsible for the generation of yields. Here all the different yield generators inherit the \textbf{make\_yields}  method from the yield generator class and define their own. This way we we are able to add as many yield generators as needed, by simply adding a new method implementing  \textbf{make\_yields} .}
-	\item{As described in Python section (see \ref{subsec:python}), each yield generator defines its own static function that will generate an array of yields according to a specific function that also introduces some randomness. Once the yield generator has been created, it is passed back to the \textbf{game2} view, where it is passed as a parameter to the \textbf{Mine} class, together with the accuracy value determined by the tool modifier, which will help generate the array of cues to be displayed later.}
-	\item{The Mine class creates a Mine object with all the parameters pertaining to the mine, together with an array of 'blocks', representing the values pertaining to each layer of the mine. Each Block object has: a position (an integer from 0 to 10), a gold yield (the value of the array of yields gnerated by \textbf{yieldgen.py} at the relevant position),  a cue (generated by \textbf{cuegen.py}, and a boolean that is True or False, depending on wether the block has been dug or not.}
-	\item{The yield array is now generated calling  \textbf{make\_yields()} and each value passed to  \textbf{cuegen.py} where the associated cue is generated. The cue is chosen at random in a range that is smaller and smaller the better the tool gets (see appendix \ref{app:firstapp}) and a new array of cues is generated. Each of the values is an integer from 0 to 5, representing the different patterns of gold flecks}
-	\item{Now that the mine has been generated, its array of blocks is passed as a parameter in the Django dictionary  to the \textbf{game2.html} template in order to be displayed. As we've seen in \ref{subsec:Django} Django allows us to dynamically display content in templates thanks to the use of Django tags. Here, for instance, the array of blocks, is iterated through and each cue is displayed thanks to CSS3. In other words, the custom stylesheet applied to the page, contains a class for each cue number (\textit{flecks\_1}, \textit{flecks\_2}, ...) and a Django tag in place of the defining number determines which of them is displayed (this is also the way gold nuggets are displayed after the user clicks the 'dig' button.}
-	\item{When the 'dig' button is clicked (or the Enter key is pressed), an AJAX POST is sent to the \textbf{ajaxview} view, where all of the server side operations are take care of (like updating the 'current gold' session variable) and a JSON dictionary containing the relevant information (for instance, how much gold the user has been able to extract) is sent back to the AJAX file (see \ref{subsec:AJAX}) }
-	\item{Finally, the appropriate content on the page is updated. A new layer of scaffolding is displayed with an animation (see \ref{subsec:CSS3}), together with the gold nuggets and a small message to the user (like ``GOOD`` or ``PAY DAY``). Finally, the scrollbar is adjusted so that the relevant part of the page is displayed. The page is not  reloaded and the user can continue digging.}
-	\end{enumerate}
+The first step in addressing this problem has been the implementation of sessions. Sessions support comes pre-built in Django and it is thus very easy to take advantage of. Sessions are employed mainly in maintaining each mine constant upon digging or reloading the page. Each mine, once created and until the moment when the user decides to move away from it, needs to remain constant, this means that its gold yields would not be generated anew and that, furthermore, the user will be able to see the amount of gold harvested from the layers she already dug. 
 
+To achieve this, we make use of two main session variables: \textbf{'pointer'} and \textbf{'pickled\_blocks'}. The 'pointer' variable is responsible for holding the value of the position of the right hand side buttons used to dig and move while the 'pickled\_blocks' variable is responsible for holding the pickled array of blocks representing the current layers of the mine. Because there are several passages involved in this mechanic it is probably helpful to break them down into steps:
+
+(1) When the user enters a mine, the \textbf{game2} view is accessed. This view is responsible for returning a dictionary to the game template with all the values relevant to the mine and the player's status. The 'pointer' variable is set to 0, while the array of blocks representing the layers of the mine is 'pickled' (see \ref{}) in order to be added to the session values and used later. 
+
+(2) The template receives the dictionary sent by the \textbf{game2} view and displays it with the help of Django tags. First of all, we check if the dictionary contains an array of blocks, if it does we proceed to further conditional statements to decide how each one of those blocks is going to be displayed (see below). 
+
+(3) First of all, we check if the block has been dug or not. This is done by checking if the 'dug' parameter is True or False. Depending on the case, different graphics will be displayed.
+
+\lstinputlisting[language=HTML, firstline=136, lastline=147]{game2.html}
+
+In the code snippet above, we can se what happens if the 'dug' variable of a block is False. Thanks to a particular kind of Django tags (the double curly braces) we can display the appropriate cue, granted that our visibility (line 4) is greater than the number of the layer we are in at the moment. On line 6 we can se how \emph{class=row\_flecks\_\{\{ block.cue \}\}} will display a different row of flecks according to the value of \emph{\{\{  block.cue \}\}}. A similar process will take place if the 'dug' value of a block is True, except in this case we will use \emph{class=row\_nuggets\_\{\{ block.cue \}\}}, which diplays the appropriate amount of nuggets and the scaffolding of an already dug layer.
+
+(4) Now that all the layers of the mine have been correctly displayed, we need to take care of the right side panel which hosts the game controls: the \textbf{dig} and \textbf{move} buttons. To each layer of the mine corresponds a row containing a button couple on the column to its right. However, all of them are hidden from the user except the one corresponding to the the first undug layer. Once the user clicks the \textbf{dig} button, the row is removed and the '\textbf{hidden}' attribute is removed from the row below it so that the button can be shown next to the next layer. At the same time, the amount of gold dug in the previous layer is displayed.
+
+(5) This modification of the DOM elements properties is achieved through AJAX and JQuery. When the user clicks on the \textbf{dig} button (or Enter is pressed), an AJAX event is triggered. The number of the layer and the amount of gold that it contains are sent to \textbf{dig-ajax.js}  together with the \textit{csrf middleware token} (required by Django for security purposes) so that they can be used in the \textbf{ajaxview} view where all necessary updates to both session and database variables will be made.
+
+\lstinputlisting[language=Python, firstline=561, lastline=563]{views.py}
+
+Here, we can see how the session variable 'pointer' is incremented by , while  'time\_remaining' and 'gold' are updated in relation to the items possessed by the user. 
+
+(6) In \textbf{ajaxview}, we also take care of un-pickling the array of blocks held in one of the session variables and update it. This is done in order to be able to maintain the array of blocks constituting the current mine until the user moves to a different one. If this didn't happen, the user would be able to simply reload the page and get a new mine every time at no cost. For this reason, it is very important that the array of blocks is maintained until a new mine is generated, otherwise, users who took advantage of this glitch would be able to gain an unfair advantage and the data extracted would not be reliable.  
+
+\lstinputlisting[language=Python, firstline=541, lastline=551]{views.py}
+
+(7) At this point, a JSON object (\textit{myResponse} containing all the necessary values is  is compiled and sent back to \textbf{dig-ajax.js} where, thanks to JQuery, we can make the appropriate modifications to update the game page.
+
+\lstinputlisting[language=Python, firstline=592, lastline=597]{views.py}
+
+(8) In \textbf{dig-ajax.js} we use a combination of JQuery methods and plugins in order to update the content. In the code snippet below, we can see how the elements with id 'totalgold' and currentgold' as well as the 'progress-bar' class are updated. For the first two (lines 2 and 4) we use the \textbf{.animateNumbers} (see \ref{subsec:JS}) plugin in order to make the digits 'scroll' in videogame-like way, while, for the last one (line 3) we simply use the JQuery method \textbf{.css} to change the \textit{width} attribute of the element, thus shortening the bar indicating the remaining amount of time units. Finally, in lines 6 to 8, we make sure that the scrollbar is positioned in line with the first undug layer, so that the user doesn't have to scroll down the page every time she finished digging the visible layers. 
+
+\lstinputlisting[language=Java, firstline=72, lastline=79]{dig-ajax.js}
+
+In a similar way, we also update the mine layers to display the appropriate amount of gold nuggets and the right scaffolding graphics. As discussed in (4), here we also take care of revealing the next layer of buttons by removing the 'hidden' class from it, while at the same time replacing the previous layer's buttons with the amount of gold dug. 
+
+(9) In the game template, the current gold and time remaining value are updated, the gold nuggets displayed and the scaffolding brought in with an animation. If the user now decides to change mine and move, a new mine is created in the \textit{game2} view and the page is reloaded. Since in this case the digging needs to start from the top again. 
 \section{Testing}
 \subsection{Unit Testing}
+
+There are several key areas in the code for Gold Digger, as we've seen in section 4.4 there are various functions that not only are fundamental to the functioning of the game, but that can modify its behaviour without us noticing. For this reason we've implemented a series of unit tests. This way, at each stage in development, we can run the test and check that everything still works according to plan. Unit testing is another very useful Django features which allows us to simply write tests in \textit{tests.py} and launch them all at the same time from the terminal. The unit tests for Gold Digger are divided in four classes, each comprising of different tests:
+
+
+\begin{itemize}
+	\item{\textbf{ModelTests}: this class include tests relating to Gold Digger's models.
+		\begin {itemize}
+			\item{\textbf{test\_user\_profile\_data}: checks if a user can be successfully added. The test fails if any of the parameters of the UserProfile model don't correspond to expectation. }
+		\end{itemize}
+	}
+	\item{\textbf{FormTests}: this class include tests relating to Gold Digger's forms.
+	\begin {itemize}
+			\item{\textbf{test\_clean\_password}: checks to make sure that a user who enters a confirmation password that is different from her first password fails authentication. }
+	\end{itemize}
+	}
+	\item{\textbf{CueTests}: includes test related to the appropriate generation of cue values
+	\begin {itemize}
+			\item{\textbf{test\_appropriate\_cue}: checks that, given an array, a maximum of gold and a scan value,  \textit{tcuegen.py} produces the appropriate cues. }
+			\item{\textbf{test\_cue\_function}: checks that, given an array, a maximum of gold and a scan value,  \textit{cuegen.cuefunction()} produces the appropriate span values (see \ref{subsec:creatingmines}).}
+		\end{itemize}
+	}
+	\item{\textbf{GameTests}: includes test related to the appropriate functioning of yield functions. The first six tests were developed in the first stages of the development of Gold Digger. They test six YieldGenerators that are not used in the present version. However, we made the decision to keep them in case future development demands for the use (and testing) of those YieldGenerators. The following tests were developed in order to test the presently used YieldGenerators as well as the creation of a mine. 
+	\begin {itemize}
+			\item{\textbf{test\_constant\_yield}}
+			\item{\textbf{test\_random\_yield}}
+			\item{\textbf{test\_linear\_yield}}
+			\item{\textbf{test\_cubic\_yield}}
+			\item{\textbf{test\_exponential\_yield}}
+			\item{\textbf{test\_quadratic\_yield}}
+			\item{\textbf{test\_positive}: beacuse the YieldGenerators used in the most recent iteration of Gold Digger generate yield according to functions which are somewhat randomized, it is difficult to test their output. Instead, here we check if any of the yields is negative, since we don't want the player to dig negative amounts of gold. }
+			\item{\textbf{test\_mine}: this lasts test checks if Mine objects are appropriately created. The test fails if any of the 'cue' or 'gold' values in each block (see \ref{sec:ER})  is equivalent to \textit{None} or if any of the position values are not comprised between 0 and 9.}
+		\end{itemize}
+	}
+\end{itemize}
+
+All the above tests are successfully passed in 2.625 seconds.
+
 \subsection{Live Testing}
 
 
-%EXPLAIN HOW A DIG WORKS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{Results and Data}\label{results}
 \section{Data Logged}
 \section{Data Analysis}

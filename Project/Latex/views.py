@@ -538,13 +538,20 @@ def ajaxview(request):
     user = UserProfile.objects.get(user=request.user)
     context = RequestContext(request)
 
-    # Unpickling the blocks
-    pickled_blocks = request.session['pickle']
-    blocks = pickle.loads(pickled_blocks)
+# Unpickling the blocks
+pickled_blocks = request.session['pickle']
+blocks = pickle.loads(pickled_blocks)
+        
+# Updating the block values
+blocks[pos].dug = True
+blocks[pos].gold_extracted = gold_extracted
+
+# Pickling
+pickled_blocks = pickle.dumps(blocks)
+request.session['pickle'] = pickled_blocks
 
     # POSTED objects['pointer']
     gold_dug = int(request.POST['dig'])                         # Requesting the AMOUNT OF GOLD
-    gold_dug_s = str(gold_dug)
     pos = int(request.POST['block'])                            # Requesting the POSITION
 
     gold_extracted = int(round(gold_dug*user.tool.modifier))    # Working out the actual amount of gold

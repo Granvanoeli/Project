@@ -190,20 +190,20 @@ class YukonQuadraticYieldGenerator(YieldGenerator):
 
         return quadratic_yield_array
 
-    @staticmethod
-    def yuki_quadratic_function(x, a, k):
+@staticmethod
+def yuki_quadratic_function(x, a, k):
 
-        span = [-15, 5]
-        b = random.choice(span)
+    span = [-15, 5]
+    b = random.choice(span)
 
-        y = (a*(pow((x - 0), 2)) + k) + b
+    y = (a*(pow((x - 0), 2)) + k) + b
 
 
-        if y < 0:
-            y = 0
+    if y < 0:
+        y = 0
 
-        rounded = int(round(y))
-        return rounded
+    rounded = int(round(y))
+    return rounded
 
 
 class BrazilQuadraticYieldGenerator(YieldGenerator):
@@ -256,18 +256,18 @@ class ScotlandQuadraticYieldGenerator(YieldGenerator):
 
         return quadratic_yield_array
 
-    @staticmethod
-    def scoti_quadratic_function(x, a, k):
+@staticmethod
+def scoti_quadratic_function(x, a, k):
 
-        b = random.randint(-10, 5)
+	b = random.randint(-10, 5)
 
-        y = (a*(pow((x - k), 2)) + 90)+b
+    y = (a*(pow((x - k), 2)) + 90)+b
 
-        if y < 0:
-           y = 0
+    if y < 0:
+    	y = 0
 
-        rounded = int(round(y))
-        return rounded
+    rounded = int(round(y))
+    return rounded
 
 
 class SouthAfricaQuadraticYieldGenerator(YieldGenerator):

@@ -69,14 +69,14 @@ $(document).ready(function(){
 
                 console.log(comment, "comment");
 
-                // Update points
-                $('#totalgold').animateNumbers(response['totalgold'], true, 200, "linear");
-                $('.progress-bar').css("width", response['timeremaining']+"%").html(response['timeremaining']);
-                $('#currentgold').animateNumbers(response['currentgold'], true, 200, "linear");
+// Update points
+$('#totalgold').animateNumbers(response['totalgold'], true, 200, "linear");
+$('.progress-bar').css("width", response['timeremaining']+"%").html(response['timeremaining']);
+$('#currentgold').animateNumbers(response['currentgold'], true, 200, "linear");
 
-                if ((pointer-1)>0){
-                    $('html, body').animate({scrollTop: $('#scaffoldlayer_'+(pointer-1)).offset().top}, 500);
-                }
+if ((pointer-1)>0){
+    $('html, body').animate({scrollTop: $('#scaffoldlayer_'+(pointer-1)).offset().top}, 500);
+}
 
 
 
