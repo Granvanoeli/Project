@@ -1,49 +1,50 @@
-\contentsline {chapter}{\numberline {1}Introduction}{6}
-\contentsline {section}{\numberline {1.1}Overview}{6}
-\contentsline {subsection}{\numberline {1.1.1}Problem statement}{7}
-\contentsline {chapter}{\numberline {2}Survey}{8}
-\contentsline {section}{\numberline {2.1}Background theories }{8}
-\contentsline {subsection}{\numberline {2.1.1}Optimal Foraging Theory}{8}
-\contentsline {subsection}{\numberline {2.1.2}Information Foraging Theory}{9}
-\contentsline {section}{\numberline {2.2}Searching Behaviour Games}{14}
-\contentsline {chapter}{\numberline {3}Design}{15}
-\contentsline {section}{\numberline {3.1}Site Map}{15}
-\contentsline {subsection}{\numberline {3.1.1}Home, Registreation and Login}{16}
-\contentsline {subsection}{\numberline {3.1.2}World Map}{17}
-\contentsline {subsection}{\numberline {3.1.3}Game Screen}{18}
-\contentsline {subsection}{\numberline {3.1.4}General Store}{19}
-\contentsline {subsection}{\numberline {3.1.5}Leaderboards}{20}
-\contentsline {subsection}{\numberline {3.1.6}Tutorial}{21}
-\contentsline {subsection}{\numberline {3.1.7}Achievements}{21}
-\contentsline {subsection}{\numberline {3.1.8}About Page}{23}
-\contentsline {section}{\numberline {3.2}Walkthrough}{23}
-\contentsline {section}{\numberline {3.3}System Architechture}{26}
-\contentsline {section}{\numberline {3.4}ER Model}{26}
-\contentsline {section}{\numberline {3.5}Graphics}{28}
-\contentsline {chapter}{\numberline {4}Impementation}{29}
-\contentsline {section}{\numberline {4.1}Development Methods}{29}
-\contentsline {section}{\numberline {4.2}Heuristic Evaluation}{29}
-\contentsline {section}{\numberline {4.3}Technologies}{31}
-\contentsline {subsection}{\numberline {4.3.1}Python}{31}
-\contentsline {subsection}{\numberline {4.3.2}Django}{31}
-\contentsline {subsection}{\numberline {4.3.3}HTML5}{32}
-\contentsline {subsection}{\numberline {4.3.4}CSS3}{32}
-\contentsline {subsection}{\numberline {4.3.5}Twitter Bootstrap CSS}{33}
-\contentsline {subsection}{\numberline {4.3.6}Javascript and JQuery}{33}
-\contentsline {subsection}{\numberline {4.3.7}AJAX}{34}
-\contentsline {section}{\numberline {4.4}Development challenges}{34}
-\contentsline {subsection}{\numberline {4.4.1}Creating mines}{34}
-\contentsline {subsection}{\numberline {4.4.2}Digging: sessions AJAX}{36}
-\contentsline {section}{\numberline {4.5}Testing}{39}
-\contentsline {subsection}{\numberline {4.5.1}Unit Testing}{39}
-\contentsline {subsection}{\numberline {4.5.2}Live Testing}{40}
-\contentsline {chapter}{\numberline {5}Experimental Results and Future Work}{42}
-\contentsline {section}{\numberline {5.1}Moving accuracy}{43}
-\contentsline {section}{\numberline {5.2}Moving accuracy and scanning equipment}{43}
-\contentsline {section}{\numberline {5.3}Moving accuracy and dig and moving costs}{44}
-\contentsline {section}{\numberline {5.4}Discussion of Results}{45}
-\contentsline {section}{\numberline {5.5}Future Work}{46}
-\contentsline {section}{\numberline {5.6}Reflection}{47}
-\contentsline {chapter}{\numberline {A}First appendix}{48}
-\contentsline {section}{\numberline {A.1}Section of first appendix}{48}
-\contentsline {chapter}{\numberline {B}Second appendix}{49}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {1.1}Overview}{4}
+\contentsline {subsection}{\numberline {1.1.1}Problem statement}{5}
+\contentsline {chapter}{\numberline {2}Survey}{6}
+\contentsline {section}{\numberline {2.1}Background theories }{6}
+\contentsline {subsection}{\numberline {2.1.1}Optimal Foraging Theory}{6}
+\contentsline {subsection}{\numberline {2.1.2}Information Foraging Theory}{7}
+\contentsline {section}{\numberline {2.2}Searching Behaviour Games}{12}
+\contentsline {chapter}{\numberline {3}Design}{13}
+\contentsline {section}{\numberline {3.1}Site Map}{13}
+\contentsline {subsection}{\numberline {3.1.1}Home, Registreation and Login}{14}
+\contentsline {subsection}{\numberline {3.1.2}World Map}{15}
+\contentsline {subsection}{\numberline {3.1.3}Game Screen}{16}
+\contentsline {subsection}{\numberline {3.1.4}General Store}{17}
+\contentsline {subsection}{\numberline {3.1.5}Leaderboards}{18}
+\contentsline {subsection}{\numberline {3.1.6}Tutorial}{19}
+\contentsline {subsection}{\numberline {3.1.7}Achievements}{19}
+\contentsline {subsection}{\numberline {3.1.8}About Page}{21}
+\contentsline {section}{\numberline {3.2}Walkthrough}{21}
+\contentsline {section}{\numberline {3.3}System Architechture}{24}
+\contentsline {section}{\numberline {3.4}ER Model}{24}
+\contentsline {section}{\numberline {3.5}Graphics}{26}
+\contentsline {chapter}{\numberline {4}Impementation}{27}
+\contentsline {section}{\numberline {4.1}Development Methods}{27}
+\contentsline {section}{\numberline {4.2}Heuristic Evaluation}{27}
+\contentsline {section}{\numberline {4.3}Technologies}{29}
+\contentsline {subsection}{\numberline {4.3.1}Python}{29}
+\contentsline {subsection}{\numberline {4.3.2}Django}{29}
+\contentsline {subsection}{\numberline {4.3.3}HTML5}{30}
+\contentsline {subsection}{\numberline {4.3.4}CSS3}{30}
+\contentsline {subsection}{\numberline {4.3.5}Twitter Bootstrap CSS}{31}
+\contentsline {subsection}{\numberline {4.3.6}Javascript and JQuery}{31}
+\contentsline {subsection}{\numberline {4.3.7}AJAX}{32}
+\contentsline {section}{\numberline {4.4}Development challenges}{32}
+\contentsline {subsection}{\numberline {4.4.1}Creating mines}{32}
+\contentsline {subsection}{\numberline {4.4.2}Digging: sessions AJAX}{34}
+\contentsline {section}{\numberline {4.5}Testing}{37}
+\contentsline {subsection}{\numberline {4.5.1}Unit Testing}{37}
+\contentsline {chapter}{\numberline {5}Experimental Results and Future Work}{39}
+\contentsline {section}{\numberline {5.1}Moving accuracy}{40}
+\contentsline {section}{\numberline {5.2}Moving accuracy and scanning equipment}{40}
+\contentsline {section}{\numberline {5.3}Moving accuracy and dig and moving costs}{41}
+\contentsline {section}{\numberline {5.4}Discussion of Results}{42}
+\contentsline {section}{\numberline {5.5}Future Work}{43}
+\contentsline {section}{\numberline {5.6}Reflection}{44}
+\contentsline {chapter}{\numberline {6}Bibliography}{45}
+\contentsline {section}{\numberline {6.1}technologies}{45}
+\contentsline {chapter}{\numberline {A}First appendix}{47}
+\contentsline {section}{\numberline {A.1}Section of first appendix}{47}
+\contentsline {chapter}{\numberline {B}Second appendix}{48}
