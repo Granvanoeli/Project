@@ -49,13 +49,19 @@ stringstyle=\color{green!40!black},
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Gold Digger: a metaphor for searching behavior}
 \author{Gabriele Giordano Maria Rossi}
-\date{Date of submission placed here}
+\date{08/09/2014}
 \maketitle
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-abstract goes here
+In this paper we set out to investigate if expectations about user searching behaviour raised by the Optimal Foraging Theory can be met in an environment that \textit{simulates} scenarios that would require decisions and
+actions we would have to make while looking or informations.
+
+The environment chosen is a game: Gold Digger. In this game users can dig through mines and acquire gold, as a metaphor for searching and acquiring useful information. Users were able to play this game as they pleased, with no instructions as to what the optimal behaviour should be.A total of 39 users/players enterd the experiment/game over a three week period.
+
+At the end of this period, our findings seem to match expectations. Users move from one mine to the other when the first one stops being productive at the right time with an absolute discrepancy of only one layer. 
+
 \end{abstract}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -68,7 +74,11 @@ abstract goes here
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section*{Acknowledgements}
 
-acknowledgements go here
+Firstly, I would like to thank Leif Azzopardi, our project leader and supevisor, for his expertise, insight and advice throughout the development of this project and during the project proposal. 
+
+I also would like to thank David Maxwell and Sean McKeown for their patience, feedback and the amount of time they took to help us develop Gold Digger.
+
+Finally, I would like to thank all of the users who played Gold Digger and in particular Martin Crean for his advice on game features and Martyna Mar˜n. 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \tableofcontents
@@ -107,8 +117,6 @@ Finally this project aims at making user's experience as enjoyable as possible f
 Firstly it will avoid users feeling like they are performing work, removing them further from a 
 standard information foraging task. Secondly, in order to enhance the number of users that 
 play the game as well as the amount of games played.
-
-\subsection{The metaphore}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -685,6 +693,11 @@ Most of the items and achievements icons were made by Alis, a pixel artist who m
 \label{implementation}
 
 \section{Development Methods}
+
+For the development of this project we adopted the \textbf{agile methodology} introduced by Beck, Kent et al. This methodology works by iterating through numerous cycles of development-evaluation-improvement of several working prototypes. Once the first prototype is brought to the table, a process of heuristic evaluation begins. Here the prototype is evaluated, suggestions for improvements are made and objective for further iterations are set. Then, a new cycle begins. The evaluators' feedback can also be complemented by unit and live testing. 
+
+During the development, Gold Digger has gone through numerous cycles of development-evaluation-improvement. Every week the prototype has been discussed tested and evaluated. Then, towards the end of the project. External users were asked to play the game to outline further improvements. In this stage we were able to do most of the game balancing and design adjustments, as well as minor changes in spelling and color. We believe that the project has benefitted greatly from this kind of methodology also because of the amount of challenges we faced in development and the amount of new technologies that had to be employed. With this top-down approach, however, we were able to deliver a finished product that meets most of the expectations.
+
 \section{Heuristic Evaluation}
 Most of the improvements made to the system in its various iterations were made thanks to the technique of Heuristic Evaluation. This technique is outlined by Neilsen and Molich and represents an "informal method of heuristic analysis" that finds its strength in the amount of evaluators of the system and the number of iterations through the development-evaluation-improvement cycle. This is possible since each evaluator bring its own point of view and analysis to the table, highlighting issues that might escape each one of them if taken singularly. Neilsen and Molich define a set of metrics to evaluate a system. Here we proceed in presenting them in relation to the development of Gold Digger. 
 
@@ -694,8 +707,11 @@ Most of the improvements made to the system in its various iterations were made 
   \item[]{ \textbf{User control and freedom}: users should have the maximum freedom possible while navigating the system, they should never be lead to situations in which they cannot perform familiar operations. A major problem in the development of Gold Digger, has been the handling of the 'back button' and 'reload' function offered by web browsers. For instance, users might try to reload the page, try to go back or leave the game page if they feel like they've made a mistake while digging in a mine. This created a series of problems. For example, if the page is reloaded and a new mine is generated, the user has reached a new mine without paying the moving cost. For this reason, we implemented session variables that would remain the same even when the page is reloaded. }
     \item[]{\textbf{Consistency and standars}: the system should follow platform convetions, the user should not have to wonder about the meaning of terms. As stated above, every effort has been put into making Gold Digger a familiar gaming experience. All of the actions performed during play have the expected results and during navigation of non-game pages, the user is presented with a standard web site. Finally the addition of the left side item panel contributes to the consistency of the gaming experience, since it is only displayed when the user is logged in and reminds her of her stats.}
     \item[]{\textbf{Error prevention}: the system should designed in a way that makes raising error messages very rare. As mentioned in the section on User Control and Freedom, one of the main concerns has been maintaining the consistency of the present game object. However, when this cannot be achieved through session variables, the user is presented with messages alerting her of the consequences of some actions. For example, if the user tries to leave the game page, a message is displayed warning her that she will lose all her gold but that she can leave if she so desires.}
-\item[]{\textbf{Recognition rather than recall}: objects, actions and options should be as visible to the user as possible, the user should not need to remember particular details if they can be easily shown. During gameplay, all of the relevant game stats are placed in the left side panel. The current amount of gold, the time remaining and the equipment are all clearly displayed and visible at a glance. The panel follws the user as she travels down the mine and, when she digs, the scroll position of the page is automatically adjusted to display the first undug layer}
-\item[]{\textbf{Flexibility and efficiency to use}: }
+\item[]{\textbf{Recognition rather than recall}: objects, actions and options should be as visible to the user as possible, the user should not need to remember particular details if they can be easily shown. During gameplay, all of the relevant game stats are placed in the left side panel. The current amount of gold, the time remaining and the equipment are all clearly displayed and visible at a glance. The panel follows the user as she travels down the mine and, when she digs, the scroll position of the page is automatically adjusted to display the first undug layer}
+\item[]{\textbf{Flexibility and efficiency to use}: following feedback from the members of the research groups, further improvements were made build upon the features discussed in the "Recognition rather than recall" sections which further enhance user experience and streamline the access to the game. First of all, upon login or registration, the user is automatically redirected to the world map so that she can immediately start playing. Secondly, a brief explanation on how the game works has been added to the main page to allow users to both evaluate the game and quickly grasp its mechanics at first glance right from the beginning.}
+\item[]{\textbf{Aesthetic and minimalistic design}: every effort has been made to remove unnecessary information from each page and give the user a spacious environment to interact with. A nav bar has been imlemented at the top of each page to offer a common thread connecting all pages and at the same time occupy as little space as possible.}
+\item[]{\textbf{Help user recognise, diagnose and recover from errors}: as discussed above alert messages are displayed to the user in colloquial language whenever the user tries to leave the page or purchase an object that she cannot afford.}
+\item[]{\textbf{Help documentation}: this has been achieved in two main areas. The first one is letting the user know about the terms and conditions as well as the purpose of the web app. This is done upon registration or redirection to the "About" page. The second one is a tutorial that provides a clear walkthrough of the main game screen explaining all the relevant items, actions and variable that the user will be presented with.}
 \end{itemize}
 
 
@@ -1009,6 +1025,18 @@ To continue on this path, nevertheless we need to consider Gold Digger's game me
 It has been pointed out by some players that some graphical and UI changes could be made to enhance Gold Digger's game play. For example, some user inquired about the presence of sound effects to be played while digging or moving, as well as a background theme. One player suggested that something other than gold should be found and that there should be the possibility to lose gold because of accidents while digging. While on the one hand some of these suggestions are very good and interesting, some of them don't seem to be completely in line with the nature of Gold Digger as an experimental platform for searching behaviour. Losing gold while digging, for instance would not fit in with the theories we set out to test.
 
 \section{Reflection}
+
+Throughout the whole project, from design, to development, to deployment, I had the chance to be faced with many challenges. I am very happy to have had this chance as every one of them thought me invaluable skills that I very much wanted to acquire. Learning to program in Python and using it to code a whole web app in Django from start to finish was a very intense but fulfilling experience.
+
+I believe that the first challenge I was faced with was designing the yield functions for each of the mines. Because they had to be predictable but yet contain a certain degree of randomness, I had to review my knowledge of mathematics and find the right equations to match and then translate them into Django. While doing this, I also helped myself with an online graphing tool to visualize each of them.
+
+Another big challenge, for me, has been the development of the look and feel of Gold Digger. I was very much set to give it an 8-bit retro-looking style. Both because I like it and because it is popular at the moment in the gaming  world. To this end I had to craft my own graphics and find the ones I couldn't make myself. Making them fit together in every page was also part of the challenge, but I think the final version is quite close to my initial vision.
+
+Finally, the biggest challenge has probably been managing the interplay of many different technologies, especially in the game screens where there's so much going on. On one hand Django tags need to display the appropriate content when the page is loaded the first time, on the other AJAX script will have to modify it without "breaking" it, all the wile accessing the appropriate views. 
+
+Overall, I must say I am very proud of this achievement and I am grateful to have had the opportunity to learn so much.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
