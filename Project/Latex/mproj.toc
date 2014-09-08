@@ -6,9 +6,7 @@
 \contentsline {section}{\numberline {2.1}Background theories }{8}
 \contentsline {subsection}{\numberline {2.1.1}Optimal Foraging Theory}{8}
 \contentsline {subsection}{\numberline {2.1.2}Information Foraging Theory}{9}
-\contentsline {section}{\numberline {2.2}Previous studies}{14}
-\contentsline {subsection}{\numberline {2.2.1}Searching behaviour}{14}
-\contentsline {subsection}{\numberline {2.2.2}Gamification}{14}
+\contentsline {section}{\numberline {2.2}Searching Behaviour Games}{14}
 \contentsline {chapter}{\numberline {3}Design}{15}
 \contentsline {section}{\numberline {3.1}Site Map}{15}
 \contentsline {subsection}{\numberline {3.1.1}Home, Registreation and Login}{16}
@@ -18,33 +16,35 @@
 \contentsline {subsection}{\numberline {3.1.5}Leaderboards}{20}
 \contentsline {subsection}{\numberline {3.1.6}Tutorial}{21}
 \contentsline {subsection}{\numberline {3.1.7}Achievements}{21}
-\contentsline {subsection}{\numberline {3.1.8}About Page}{22}
-\contentsline {section}{\numberline {3.2}Walkthrough}{22}
-\contentsline {section}{\numberline {3.3}System Architechture}{25}
+\contentsline {subsection}{\numberline {3.1.8}About Page}{23}
+\contentsline {section}{\numberline {3.2}Walkthrough}{23}
+\contentsline {section}{\numberline {3.3}System Architechture}{26}
 \contentsline {section}{\numberline {3.4}ER Model}{26}
-\contentsline {section}{\numberline {3.5}Graphics}{27}
-\contentsline {chapter}{\numberline {4}Impementation}{28}
-\contentsline {section}{\numberline {4.1}Development Methods}{28}
-\contentsline {section}{\numberline {4.2}Heuristic Evaluation}{28}
-\contentsline {section}{\numberline {4.3}Technologies}{28}
-\contentsline {subsection}{\numberline {4.3.1}Python}{28}
-\contentsline {subsection}{\numberline {4.3.2}Django}{28}
-\contentsline {subsection}{\numberline {4.3.3}HTML5}{29}
-\contentsline {subsection}{\numberline {4.3.4}CSS3}{29}
-\contentsline {subsection}{\numberline {4.3.5}Twitter Bootstrap CSS}{30}
-\contentsline {subsection}{\numberline {4.3.6}Javascript and JQuery}{30}
-\contentsline {subsection}{\numberline {4.3.7}AJAX}{31}
-\contentsline {section}{\numberline {4.4}Development challenges}{31}
-\contentsline {subsection}{\numberline {4.4.1}Creating mines}{32}
-\contentsline {subsection}{\numberline {4.4.2}Digging: sessions AJAX}{33}
-\contentsline {section}{\numberline {4.5}Testing}{36}
-\contentsline {subsection}{\numberline {4.5.1}Unit Testing}{36}
-\contentsline {subsection}{\numberline {4.5.2}Live Testing}{37}
-\contentsline {chapter}{\numberline {5}Results and Data}{39}
-\contentsline {section}{\numberline {5.1}Data Logged}{39}
-\contentsline {section}{\numberline {5.2}Data Analysis}{39}
-\contentsline {section}{\numberline {5.3}Results}{39}
-\contentsline {section}{\numberline {5.4}Reflection}{39}
-\contentsline {chapter}{\numberline {A}First appendix}{40}
-\contentsline {section}{\numberline {A.1}Section of first appendix}{40}
-\contentsline {chapter}{\numberline {B}Second appendix}{41}
+\contentsline {section}{\numberline {3.5}Graphics}{28}
+\contentsline {chapter}{\numberline {4}Impementation}{29}
+\contentsline {section}{\numberline {4.1}Development Methods}{29}
+\contentsline {section}{\numberline {4.2}Heuristic Evaluation}{29}
+\contentsline {section}{\numberline {4.3}Technologies}{30}
+\contentsline {subsection}{\numberline {4.3.1}Python}{30}
+\contentsline {subsection}{\numberline {4.3.2}Django}{31}
+\contentsline {subsection}{\numberline {4.3.3}HTML5}{31}
+\contentsline {subsection}{\numberline {4.3.4}CSS3}{31}
+\contentsline {subsection}{\numberline {4.3.5}Twitter Bootstrap CSS}{32}
+\contentsline {subsection}{\numberline {4.3.6}Javascript and JQuery}{32}
+\contentsline {subsection}{\numberline {4.3.7}AJAX}{33}
+\contentsline {section}{\numberline {4.4}Development challenges}{33}
+\contentsline {subsection}{\numberline {4.4.1}Creating mines}{34}
+\contentsline {subsection}{\numberline {4.4.2}Digging: sessions AJAX}{36}
+\contentsline {section}{\numberline {4.5}Testing}{38}
+\contentsline {subsection}{\numberline {4.5.1}Unit Testing}{38}
+\contentsline {subsection}{\numberline {4.5.2}Live Testing}{39}
+\contentsline {chapter}{\numberline {5}Experimental Results and Future Work}{41}
+\contentsline {section}{\numberline {5.1}Moving accuracy}{42}
+\contentsline {section}{\numberline {5.2}Moving accuracy and scanning equipment}{42}
+\contentsline {section}{\numberline {5.3}Moving accuracy and dig and moving costs}{43}
+\contentsline {section}{\numberline {5.4}Discussion of Results}{44}
+\contentsline {section}{\numberline {5.5}Future Work}{45}
+\contentsline {section}{\numberline {5.6}Reflection}{46}
+\contentsline {chapter}{\numberline {A}First appendix}{47}
+\contentsline {section}{\numberline {A.1}Section of first appendix}{47}
+\contentsline {chapter}{\numberline {B}Second appendix}{48}

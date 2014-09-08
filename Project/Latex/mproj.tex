@@ -112,11 +112,13 @@ play the game as well as the amount of games played.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Survey}\label{survey}
+\chapter{Survey}
+\label{ch:survey}
 
 \section{Background theories }
 
 \subsection{Optimal Foraging Theory}
+\label{subsec:OFT}
 One of the most interesting studies proposed by Sinevro which can help us bring out some interesting points on searching behaviours, is the one on crows foraging on clams. In this study, Sinevro tells us about the foraging behaviour of the common crow (Corvus caurinus) in the intertidal. This kind of crow, has developed a technique to open clams which requires it to take a short flight and drop clams on some rocks below it to crack them open. The cost (in energy) of searching for clams, and the one of handling them is almost the same, however, the cost (in time) of performing the same activities is 4 times more expensive with regards to searching. It is then difficult to understand why crows would reject a large amounts of the clams they find, especially given the fact that searching seems to take up so much time. The reason for this behaviour is to be found in the "average net profitability of the clams as a function of sizeâ(Sinevro 2006), which can be represented by the equation:
 
 \begin{equation*}
@@ -185,7 +187,7 @@ The aim of this proposal is evaluate subjects' innate ability to reproduce simil
 \end{figure}
 
 \subsection{Information Foraging Theory}
-
+\label{subsec:IFT}
 Pirolli \& Card seem to start from the assumption that there are many similarities between the techniques adopted by animals foraging in the wild and the ones adopted by people in "Information Foraging". Because of the structure of today's society, in fact, it is not for food that we forage for. Food is usually readily available almost anywhere  human settlements can be found, however, to purchase it, we need to engage in a "complex tributary of cultural tasks that engage our physical and social environments" (Pirolli \& Card  1995) which demand us to develop numerous "information-based" strategies, in order to earn a living. Pirolli \& Card begin by explaining that our adaptive success seems to be increasingly dependent on our mastery of techniques of information-gathering, sense-making, decision-making and problem-solving strategies. In turn, they claim, this leads us to implement strategies which are similar to the ones seen in foraging behaviours of animals in the wild. Here, we can observe patterns in food foraging behaviours which aim at maximising the energy intake while minimising the amount of energy spent while foraging. 
 
 In other words, our lives are increasingly dependent on the ways in which we organise and retrieve information in order to use it effectively to navigate and survive today's social (and sometimes physical) landscape. Pirolli \& Card go on to claim that, the Information Foraging theory's main tenant is that:  "when feasible, natural information systems evolve towards stable states that maximise gains of valuable information per unit cost. Cognitive systems engaged in information foraging will exhibit such adaptive tendencies" (Pirolli \& Card  1995). 
@@ -223,7 +225,7 @@ Notably, this equation assumes that (1) "the total amount of information gained 
 G = \lambda T_B g
 \end{equation}
 
-And that (2) â€œthe total amount of within-patch time can be represented as:
+And that (2)âthe total amount of within-patch time can be represented as:
 
 \begin{equation}
 T_W = \lambda T_B t_W
@@ -291,10 +293,13 @@ This means that, the more time is spent between-patch, the less a forager will f
 
 The objective of the experiment outlined in this proposal, is to be able to evaluate the strategies adopted by subjects in order to reach an optimal rate of gain and to analyse how they are able to choose between within/between-patch enrichment strategies to better their rate of gain per unit cost. 
 
+\section{Searching Behaviour Games}
 
-\section{Previous studies}
-\subsection{Searching behaviour}
-\subsection{Gamification}
+Throughout the years, several games to study searching behaviour have been developed. In this section we will explore the differences and similarities that these games have with Gold Digger. Even though these games involve a very different gameplay than Gold Digger, their objective has always been to test the user's ability in searching and information retrieval. In all of the previous games, in fact, the user is shown a particular web page and asked to retrieve it by typing queries in a search engine. In \textit{Page Hunt}, for example, the user is shown a difficult-to-retrieve page and is asked to input the appropriate query in a search engine in order to find it. \textit{Fu-Finder} instead, the user is asked to pick the most relevant link in the list returned by three different search engines. In both of these games, points are awarded either based on the number of pager found or on the number of pages as well as the rank at which those pages were retrieved. 
+
+\textit{Page Fetch} and its second iteration \textit{Page Fetch 2} however, have a more complicated scoring system which introduces game dynamics that bring us closer to Gold Digger. In \textit{Page Fetch 2}, in fact, the user is encouraged to enter the shortest possible query in order to retrieve a particular page. This is done in order to discourage players from entering an obvious long query and instead be strategic, since the shortest query will yield the most points. In a similar way, in Gold Digger, the user that manages to dig least amount of layers while getting the greatest payoff is rewarded. 
+
+ \textit{Page Fetch 2} also introduces a series of game features that are specifically aimed at enhancing the user experience and extending the amount of time users spend playing the game. These features include the awarding of badges and the ranking of players in leaderboards, so that they can compare their performance against other players and strive to be the best. Gold Digger also incorporates these features (see ~\ref{subsec:achievements}) and tries to expand them further in the direction of an even more enhanced gaming experience. In addition to this, \textit{Page Fetch 2}, allows the user to choose between different categories of similarly themed web pages. In the same way, In Gold Digger offers the user a series of different locations in which to play.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Design}\label{design}
@@ -308,6 +313,13 @@ Because Gold Digger is both a website and a game, it seemed appropriate to someh
 Notwithstanding this distinction, the user experience is not disjointed thanks to prominent recurring elements such as the nav bar on the top of the page and the landscape headline showing the name of each page.
 
 \section{Site Map}
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{sitemap.png}}
+	\caption{Gold Digger nav bar}
+           \label{navbar}
+\end{figure}
 
 Navigation through the website is aided by a navbar located at the top of every page (with the exception of the 'game over' and 'end of the day'
 pages). 
@@ -441,7 +453,7 @@ Each row of the the tables (excluding the 'Achievement' table) diplays the follo
 Because it is important for users to have a clear idea of the way the game works, all effort has been made to employ a visual approach that would be quick and easy to understand. To this end, upon entering, the \textbf{'How to Play'} page, a tour of the main game features is automatically launched. The javascript library \textbf{Trip.js} (see 4.4.6) highlights and points at the different parts of the game screen in order to get a quick visual explanation of the main game mechanics. Each of the labels has 'Next', and 'Previous' link, in order to let users go back to a previous point or skip explanations they already viewed.
 
 \subsection{Achievements}
-
+\label{subsec:achievements}
 \begin{figure} [!hb] 
 	\centering
            \makebox[\textwidth][c]{\includegraphics[width=1.2\textwidth]{achievements.png}}
@@ -509,7 +521,8 @@ In this page, users are able to find  the developer and supervisor's contact det
 
 On the map, Jill clicks on California and a modal appears, from which she can see see that, although the mine doesn't yield much gold, it is relatively cheap to access it (she only needs to pay 40 gold nuggets to enter it).
 
-(2) After clicking on 'Go to Mine', 40 gold nuggets are removed from Jill's total amount of gold and she is presented with a mine where no layer has been dug. On the top left hand side Jill can see the name of the location she is in and the number of the mine (now 1) whereas on the right hand side she can check her total amount of gold (now 60) and the number of days she has been digging. Thanks to her Oil Lamp she can see specks of gold in the first two layers but, because the lamp only has a 20\% accuracy, it is possible that the amount of flecks that can be seen is deceiving. 
+(2) After clicking on 'Go to Mine', 40 gold nuggets are removed from Jill's total amount of gold and she is presented with a mine where no layer has been dug(fig~\ref{fig:two}). On the top left hand side Jill can see the name of the location she is in and the number of the mine (now 1) whereas on the right hand side she can check her total amount of gold (now 60) and the number of days she has been digging. Thanks to her Oil Lamp she can see specks of gold in the first two layers but, because the lamp only has a 20\% accuracy, it is possible that the amount of flecks that can be seen is deceiving. 
+
 \begin{itemize}
 	\item \textbf{Current gold}: 0
   	\item \textbf{Time remainingl}: 100
@@ -517,17 +530,39 @@ On the map, Jill clicks on California and a modal appears, from which she can se
 	\item \textbf{Day}: 1
 \end{itemize} 
 
-(3) Jill decides to dig through the first couple of layers layer of the mine by clicking on the 'Move' button on the right hand side of the mine shaft. She gains 17 gold nuggets and consumes 10 units of time (since each digging operation costs 5 units of time)
+\begin{figure}[!ht]
+        \centering
+        \begin{subfigure} [h] {0.45\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {two.png}
+                \caption{The undug mine}
+                \label{fig:two}
+        \end{subfigure}
+        \space
+        \space
+        \begin{subfigure} [h] {0.50\textwidth}
+                \centering
+                \includegraphics [width=1\textwidth] {mine.png}
+                \caption{the mine has been dug twice}
+                \label{fig:mine}
+        \end{subfigure}
+        \caption{}
+        \label{fig:doublemine}
+\end{figure}
+
+
+(3) Jill decides to dig through the first couple of layers layer of the mine (fig~\ref{fig:mine}) by clicking on the 'Move' button on the right hand side of the mine shaft. She gains 15 gold nuggets and consumes 10 units of time (since each digging operation costs 5 units of time)
 \begin{itemize}
-	\item \textbf{Current gold}: 17
+	\item \textbf{Current gold}: 15
   	\item \textbf{Time remainingl}: 90
   	\item \textbf{Mine}: 1
 	\item \textbf{Day}: 1
 \end{itemize} 
 
+
 (4) At this point Jill is not sure she might get much more gold from this mine and she doesn't want to spend precious time digging through layers of the mine that she has no information about. For this reason she clicks on 'Move' to get to a new mine (in the same location). To do this she must spend 10 units of time
 \begin{itemize}
-	\item \textbf{Current gold}: 17
+	\item \textbf{Current gold}: 15
   	\item \textbf{Time remainingl}: 80
   	\item \textbf{Mine}: 2
 	\item \textbf{Day}: 1
@@ -649,9 +684,20 @@ Most of the items and achievements icons were made by Alis, a pixel artist who m
 \chapter{Impementation}
 \label{implementation}
 
-
 \section{Development Methods}
 \section{Heuristic Evaluation}
+Most of the improvements made to the system in its various iterations were made thanks to the technique of Heuristic Evaluation. This technique is outlined by Neilsen and Molich and represents an "informal method of heuristic analysis" that finds its strength in the amount of evaluators of the system and the number of iterations through the development-evaluation-improvement cycle. This is possible since each evaluator bring its own point of view and analysis to the table, highlighting issues that might escape each one of them if taken singularly. Neilsen and Molich define a set of metrics to evaluate a system. Here we proceed in presenting them in relation to the development of Gold Digger. 
+
+\begin{itemize}
+  \item[]{ \textbf{Visibility of system status}: the user has to be as aware as possible of the status of the system and about what's going on through appropriate feedback. In the earlier phases of gold digger, the game screen was lacking crucial information about the game status that was necessary for the user to make decisions on how to proceed playing. Two of the main variable that always need to be show to the user are the amount of gold gathered during a particular day and the time remaining before the end of that day. To visualise the firs one clearly we positioned a large counter on the left of the mine that is updated in a videogame-like 'scrolling' fashion at every dig, so that the user is always aware of the amount of gold that he is extracting as opposed to a static counter that simply jumps to the new amount. For the second one, we added a progress bar, so that the user is aware of how much time she has left at a glance.}
+  \item[] {\textbf{Match between system and the real world}: users have to find themselves in a familiar environment that uses understandable vocabulary and conventions. In Gold Digger, colloquial language is used throughout. This is done not only in order for the user's understanding, but also to conform to expectations of a playful environment as it would be expected from a game. On the same lines, every effort has been made to provide the user with a familiar gaming experience that would not be hampered by the challenges of web development. To this purpose, we made extensive use of AJAX, so that we could minimise the amount of pages to be displayed.}
+  \item[]{ \textbf{User control and freedom}: users should have the maximum freedom possible while navigating the system, they should never be lead to situations in which they cannot perform familiar operations. A major problem in the development of Gold Digger, has been the handling of the 'back button' and 'reload' function offered by web browsers. For instance, users might try to reload the page, try to go back or leave the game page if they feel like they've made a mistake while digging in a mine. This created a series of problems. For example, if the page is reloaded and a new mine is generated, the user has reached a new mine without paying the moving cost. For this reason, we implemented session variables that would remain the same even when the page is reloaded. }
+    \item[]{\textbf{Consistency and standars}: the system should follow platform convetions, the user should not have to wonder about the meaning of terms. As stated above, every effort has been put into making Gold Digger a familiar gaming experience. All of the actions performed during play have the expected results and during navigation of non-game pages, the user is presented with a standard web site. Finally the addition of the left side item panel contributes to the consistency of the gaming experience, since it is only displayed when the user is logged in and reminds her of her stats.}
+    \item[]{\textbf{Error prevention}: the system should designed in a way that makes raising error messages very rare. As mentioned in the section on User Control and Freedom, one of the main concerns has been maintaining the consistency of the present game object. However, when this cannot be achieved through session variables, the user is presented with messages alerting her of the consequences of some actions. For example, if the user tries to leave the game page, a message is displayed warning her that she will lose all her gold but that she can leave if she so desires.}
+\item[]{\textbf{Recognition rather than recall}: objects, actions and options should be as visible to the user as possible, the user should not need to remember particular details if they can be easily shown. During gameplay, all of the relevant game stats are placed in the left side panel. The current amount of gold, the time remaining and the equipment are all clearly displayed and visible at a glance. The panel follws the user as she travels down the mine and, when she digs, the scroll position of the page is automatically adjusted to display the first undug layer}
+\item[]{\textbf{Flexibility and efficiency to use}: }
+\end{itemize}
+
 
 \section{Technologies}
 
@@ -660,16 +706,6 @@ Most of the items and achievements icons were made by Alis, a pixel artist who m
 
 Python is one of the most popular programming languages with great features such as a clear syntax and an extensive amount of documentation, libraries and native methods.
 The choice of using Python as a main programming language was very much tied to the web development framework chosen (Django). Nevertheless, Python has many advantages of its own, that became very important to the development of Gold Digger.  Built in methods, such as \textit{random.randint()} (to generate random integers) and \textit{pow()} (for exponentiation) were of great help in the the development of the yield functions for each mine. Furthermore, thanks to the \textit{list} object, it is very easy to create, manipulate, sort and modify both arrays and list, which proved very useful, given the structure of each mine. Finally, Python dictionaries, allow us to store pairs of values and retrieve them seamlessly in just a few lines of code which, given the number of variables each game object has to handle, is a great advantage, since then we don't need to handle handle them one by one.
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% CODE EXAMPLE (PYTHON)
-%
-%The code snippet below, belongs to one of the yield generators (six in total), that are responsible for assigning a certain amount of gold to each layer of a mine. Two things are needed from the yield generators. The first one is that they generate yield according to a function whose parameters can be modified in order to balance the gameplay or extract different data from the users. The second one is that they generate yields with a certain randomness so that the user is not faced with the same mine over and over. 
-
-%\lstinputlisting[language=Python, firstline=260, lastline=270]{yieldgen.py}
-
-%Using Python, it is very easy to fulfill both of these requirements. The latter one is taken care of on line 3, where a simple call of the \textit{random.randint()} method allows us to assign random integer in range -10 <= b <= 5 and thus modify the displacement of the curve. The former requirement is fulfilled on line 5 where the quadratic yield function is defined with very simple syntax and the employment of the  \textit{pow()} method. 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% END CODE EXAMPLE (PYTHON)
 
 \subsection{Django}
 \label{subsec:Django}
@@ -831,7 +867,7 @@ In a similar way, we also update the mine layers to display the appropriate amou
 \section{Testing}
 \subsection{Unit Testing}
 
-There are several key areas in the code for Gold Digger, as we've seen in section 4.4 there are various functions that not only are fundamental to the functioning of the game, but that can modify its behaviour without us noticing. For this reason we've implemented a series of unit tests. This way, at each stage in development, we can run the test and check that everything still works according to plan. Unit testing is another very useful Django features which allows us to simply write tests in \textit{tests.py} and launch them all at the same time from the terminal. The unit tests for Gold Digger are divided in four classes, each comprising of different tests:
+There are several key areas in the code for Gold Digger, as we've seen in section 4.4 there are various functions that not only are fundamental to the functioning of the game, but that can modify its behaviour completely. For this reason we've implemented a series of unit tests. This way, at each stage in development, we can run the test and check that everything still works according to plan. Unit testing is another very useful Django feature which allows us to simply write tests in the \textit{tests.py} file and launch them all at the same time from the terminal. The unit tests for Gold Digger are divided in four classes, each comprising of different tests:
 
 
 \begin{itemize}
@@ -842,12 +878,12 @@ There are several key areas in the code for Gold Digger, as we've seen in sectio
 	}
 	\item{\textbf{FormTests}: this class include tests relating to Gold Digger's forms.
 	\begin {itemize}
-			\item{\textbf{test\_clean\_password}: checks to make sure that a user who enters a confirmation password that is different from her first password fails authentication. }
+			\item{\textbf{test\_clean\_password}: checks to make sure that a user who enters a confirmation password that is different from her first password, fails authentication. }
 	\end{itemize}
 	}
-	\item{\textbf{CueTests}: includes test related to the appropriate generation of cue values
+	\item{\textbf{CueTests}: includes tests related to the appropriate generation of cue values
 	\begin {itemize}
-			\item{\textbf{test\_appropriate\_cue}: checks that, given an array, a maximum of gold and a scan value,  \textit{tcuegen.py} produces the appropriate cues. }
+			\item{\textbf{test\_appropriate\_cue}: checks that given an array, a maximum of gold and a scan value,  \textit{cuegen.py} produces the appropriate cues. }
 			\item{\textbf{test\_cue\_function}: checks that, given an array, a maximum of gold and a scan value,  \textit{cuegen.cuefunction()} produces the appropriate span values (see \ref{subsec:creatingmines}).}
 		\end{itemize}
 	}
@@ -869,19 +905,110 @@ All the above tests are successfully passed in 2.625 seconds.
 
 \subsection{Live Testing}
 
+Live testing has been conducted at each iteration in the development circle of Gold Digger with a selected group of users who understood the structure and mechanics of the game and were thus able to look for and pinpoint different issues. Below, we detail some of these issues and how they were resolved.
+\begin{itemize}
+\item{}
+\end{itemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\chapter{Results and Data}\label{results}
-\section{Data Logged}
-\section{Data Analysis}
-\section{Results}
+\chapter{Experimental Results and Future Work}
+\label{results}
+In this section we discuss and analyse the data gathered from Gold Digger. The data regarding the performance of a total of \textbf{39} users  was gathered and analysed. The main focus of the analysis has been the accuracy with which the users can decide when it is profitable to continue digging and when instead is more profitable to move to a different mine. As discussed in the survey, (see \ref{subsec:IFT}) we want to verify if user behaviour matches the expectations set forth by the Information Foraging Theory in an environment that has been designed to merely simulate searching behaviour. To do this, a series of parameters were logged during each game session and saved to a log file. 
+
+\lstinputlisting[language=Java, firstline=4869, lastline=4871]{log_LOC_NLOC.txt}
+
+Above, we can see an example of a few lines of the log file.  From here, we have sorted and trimmed the appropriate lines to obtain a series the values:
+
+\begin{itemize}
+\item{The \textbf{user}}
+\item{The position in which the user should move, calculated according to: \begin{equation}
+\emph{Optimal moving position} = \frac{\emph{Cumulative Gold}}{\emph{Move Cost +(Position * Dig Cost)}}
+\end{equation}}
+\item{The \textbf{dig cost}}
+\item{The \textbf{move cost}}
+\item{The ratio of \textbf{dig cost} divided by \textbf{move cost}}
+\item{The \textbf{scanning equipment}}
+\item{The position in which the user actually moved}
+\end{itemize}
+
+These values were then imported into spreadsheets and analysed according to different parameters as we will see in the following subsections. However, because Gold Digger has been designed mainly as a development project, it is worth to point out that there is a much bigger wealth of data and relationships than the one presented below but their analysis has to be postponed in future work.
+
+\section{Moving accuracy}
+To calculate the accuracy with which users moved from a mine to the next one, we subtracted the value of the position (or layer) at which they moved from the value of the position at which they should have moved (calculated using equation 5.1 above). If the result of the operation is a negative number, the user moved too late, if the result is a positive number the user moved too early. If, for instance the user should have moved at when she reached layer 3 but instead moved at layer 4, the user moved 1 layer too late and the value registered for her accuracy would be -1. If the result of the operation is 0, the user moved at the most profitable time, determining an \textbf{optimal rate of gain}
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=1\textwidth]{movingaccuracy.png}}
+           \caption{Moving accuracy: the majority of moving operations are in conformity with the optimal rate of gain}
+\end{figure}
+
+From the result displayed by the above chart, we can see that the majority of moving operations is performed at the right time which matches expectations put forth by the Information Foraging Theory. 
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{absolute.png}}
+           
+           \caption{Absolute moving accuracy: in total, users are stop digging either one layer above or one layer below the optimal point}
+           \label{fig:absolute}
+\end{figure}
+
+Chart~\ref{fig:absolute} however, shows that if we consider the absolute value of the the difference between the layer number at which the user should have moved minus the value at which they did actually move, we notice that the majority of users moves either one layer below or one layer above the optimal moving point.
+
+\section{Moving accuracy and scanning equipment}
+
+Because the scanning equipment influences the amount of layers the users can see cues (gold flecks) as well as the accuracy of those cues, we investigated the link between the user's scanning equipment in relation to the optimal moving position (optimal gain). 
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{scan.png}}
+           \caption{Scanning equipment seems to have an effect on the ability of the users to predict the optimal moving point}
+	  \label{fig:scan}
+\end{figure}
+
+From \ref{fig:scan} it seems that, on average, when users are using the Oil Lamp they tend to stop too early, while when they are using the Map, they are very close to an optimal moving point. However, with the next three items, users seem to go too far. 
+
+\section{Moving accuracy and dig  and moving costs}
+
+Another important parameter users have to consider while playing is the cost in time of each digging operation. The more the operation costs, the least amount of digs they will be able to perform. By buying better items, users can decrease this cost and modify their performance. In the chart \ref{fig:digc} we can see the average accuracy in relation to the moving cost (and hence the tool equipped).
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{digc.png}}
+           \caption{User performance in relation to dig cost}
+	  \label{fig:digc}
+\end{figure}
+
+This is quite interesting since it seems that, while the cost of digging is higher, users tend to play it safe and stop digging earlier. However, as the cost of digging decreases, users seem to be more daring and start moving too late instead albeit in a decreasing fashion with each improved item. 
+
+The relationship between moving cost and and moving accuracy, on the other hand doesn't seem too interesting. In fact, as we can see from chart \ref{fig:movec} user behaviour doesn't seem to match any significant pattern in relation to moving cost.
+
+\begin{figure} [!ht] 
+	\centering
+           \makebox[\textwidth][c]{\includegraphics[width=0.9\textwidth]{movec.png}}
+           \caption{User performance in relation to move cost}
+	  \label{fig:movec}
+\end{figure}
+
+\section{Discussion of Results}
+
+From the analysis of the gathered data we seem to be able to confirm some of our expectations regarding users' behaviour in an environment that simulates searching behaviour. In Gold Digger we have created a metaphor for searching by designing an environment that in which users have to make the same sort of choices as they would while searching for information. 
+
+First of all, if we consider the total amount of digging operations performed by all the users during the course of the experiment, we see that the highest number of these operations occurs when the difference between the number of the layer where they should have moved and the one of the layer where they did actually move is equal to 0. This suggests that expectations are met with regards to the Information Foraging Theory. Even in an environment in which there is no relation to information retrieval, the user still performs in the same way, adjusting her strategy to maximise her gain. However, if we consider the \textit{absolute} value of the distance from the optimal moving point, the picture seems to change slightly. In this case, in fact, we can see that, out of all the moving operations performed, the ones that were performed the most were the ones that occurred either one layer too early or one layer too late. This said, however, we can still notice that there is a very clear pattern showing at least the \textit{tendence} of users to behave optimally.
+
+The relationship between users' proximity to optimal behaviour and scanning material has been considered in order to investigate whether a greater insight on what a layer of the mine might contain influences user performance. In a normal information retrieval task this would equate to increasing our knowledge of the material we are searching for, thus being able to tell if a piece of information will be useful to us or not. The relationship found was quite interesting. Users seem to be less cautious with they have the Oil Lamp equipped and they can thus see only see the first two layers of an undug mine showing gold flecks. When they acquire the Map, they start to be very close to optimal performance but, while using the last three items, they seem to leave earlier than they should. I believe that this is due to the user's ability to have enough clues as to how much gold a layer will yield while not being very trustworthy of the cues themselves. In fact, from the moment they acquire the Sonar, they seem to start moving closer and closer to optimal behaviour. 
+
+To represent '\textit{enrichment strategies}' (see ~\ref{subsec:OFT}) in Gold Digger, we introduced items that modify digging and moving cost simulating \textit{in-patch} and \textit{between-patch} enrichment strategies respectively. For this reason, it is important to look at the relationship of digging and moving costs with users' accuracy in trying to achieve optimal gain. For what concerns digging cost, our findings are quite interesting. When digging is the most expensive (4 or 5 units of time) users seem to go deeper an overshoot the optimal mark. This might be because they are anxious to find more gold, since if they don't they won't be able to continue mining an they will encounter a game over. However, when digging gets cheaper because of the purchase of new items, users have probably already managed to store a fair amount of gold. For this reason, it is possible that they don't mind moving to early and pay a comparatively higher price for moving. Since they can afford their mistakes they are eager to get to a new mine and start getting more gold. This seems to also be confirmed by a number of users whom reported the game to be more difficult in the earlier stages. Finally, the relationship between moving cost and accuracy doesn't seem to hold interesting relationship.
+
+\section{Future Work}
+
+In the previous section we have seen just some of the relationships we can extract from the data gathered with Gold Digger, but many more can be investigated and highlighted. One example of this would be the accuracy of the players in relation to each of the mines, is there any mine in which users perform better, and if so, why. Another interesting relationship to explore could be the rapport between the number of mines dug and the accuracy of each player, or the number of days it takes for a player to reach her best performance and if this one is maintained. The means to extract and analyse this kind of data have already been implemented in Gold Digger, however, time constraint didn't allow us to explore them all.
+
+To continue on this path, nevertheless we need to consider Gold Digger's game mechanics first, since users' performance and behaviour could be based on the way they experience the game. Using the data already gathered we could fine-tune the yield functions, the item costs and the mine costs in order to make the game more challenging and enhance the possibility of failure, which in turn will bring the users to pay more attention to their actions. Having done this, we would also need to add more rewards for the users, in order to give them something to work for and strive towards. An example of this would be implementing a performance-based star award system, in which users are awarded one out of three stars in relation to their performance. The closer they get to an optimal gain, the more stars they will get. Another way to reward the users and keep them interested would be adding more items or buildings to purchase with their gold. This way they would be able to have an objective to continue digging, other than simply being at the top of the leaderboards. 
+
+It has been pointed out by some players that some graphical and UI changes could be made to enhance Gold Digger's game play. For example, some user inquired about the presence of sound effects to be played while digging or moving, as well as a background theme. One player suggested that something other than gold should be found and that there should be the possibility to lose gold because of accidents while digging. While on the one hand some of these suggestions are very good and interesting, some of them don't seem to be completely in line with the nature of Gold Digger as an experimental platform for searching behaviour. Losing gold while digging, for instance would not fit in with the theories we set out to test.
+
 \section{Reflection}
-
-
-
-
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
