@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.27)  8 SEP 2014 07:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.8.27)  8 SEP 2014 08:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -446,8 +446,26 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 337.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
+) (./mproj.aux
+
+LaTeX Warning: Label `gain1' multiply defined.
+
+
+LaTeX Warning: Label `gain1' multiply defined.
+
+
+LaTeX Warning: Label `gain1' multiply defined.
+
+
+LaTeX Warning: Label `navbar' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+
+LaTeX Warning: Label `sub@' multiply defined.
+
 )
-No file mproj.aux.
 \openout1 = `mproj.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
@@ -464,7 +482,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
 LaTeX Font Info:    ... okay on input line 47.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 47.
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
+ (/usr/local/texlive/2014/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 47.
@@ -567,60 +585,57 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 58.
  [1] [1] [2]
-No file mproj.toc.
+(./mproj.toc [3
+
+] [4])
 \tf@toc=\write4
 \openout4 = `mproj.toc'.
 
-[3
-
-]
+ [5]
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <20.74> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 90.
-[4
+[6
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 109.
- [5]
+ [7]
 Chapter 2.
-<images/clam1.png, id=32, 159.59625pt x 99.37125pt>
+<images/clam1.png, id=38, 159.59625pt x 99.37125pt>
 File: images/clam1.png Graphic file (type png)
  <use images/clam1.png>
 Package pdftex.def Info: images/clam1.png used on input line 145.
 (pdftex.def)             Requested size: 125.18227pt x 77.94443pt.
 
-<images/clam2.png, id=34, 150.5625pt x 98.61844pt>
+<images/clam2.png, id=40, 150.5625pt x 98.61844pt>
 File: images/clam2.png Graphic file (type png)
  <use images/clam2.png>
 Package pdftex.def Info: images/clam2.png used on input line 152.
 (pdftex.def)             Requested size: 125.18227pt x 81.99773pt.
 
-<images/clam3.png, id=35, 152.82094pt x 116.68594pt>
+<images/clam3.png, id=41, 152.82094pt x 116.68594pt>
 File: images/clam3.png Graphic file (type png)
  <use images/clam3.png>
 Package pdftex.def Info: images/clam3.png used on input line 160.
 (pdftex.def)             Requested size: 125.18227pt x 95.58159pt.
 
-
-LaTeX Warning: Reference `fig:clams' on page 6 undefined on input line 166.
-
-[6
+[8
 
  <./images/clam1.png> <./images/clam2.png> <./images/clam3.png>]
-<images/gain1.png, id=43, 198.7425pt x 143.78719pt>
+<images/gain1.png, id=49, 198.7425pt x 143.78719pt>
 File: images/gain1.png Graphic file (type png)
  <use images/gain1.png>
 Package pdftex.def Info: images/gain1.png used on input line 176.
 (pdftex.def)             Requested size: 166.90544pt x 120.75627pt.
 
-<images/gain2.png, id=44, 195.73125pt x 145.29282pt>
+<images/gain2.png, id=50, 195.73125pt x 145.29282pt>
 File: images/gain2.png Graphic file (type png)
  <use images/gain2.png>
 Package pdftex.def Info: images/gain2.png used on input line 189.
 (pdftex.def)             Requested size: 204.46458pt x 151.78378pt.
 
-<images/gain3.png, id=45, 197.23688pt x 157.33781pt>
+<images/gain3.png, id=51, 197.23688pt x 157.33781pt>
 File: images/gain3.png Graphic file (type png)
  <use images/gain3.png>
 Package pdftex.def Info: images/gain3.png used on input line 195.
@@ -629,60 +644,52 @@ Package pdftex.def Info: images/gain3.png used on input line 195.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[7 <./images/gain1.png>]
+[9 <./images/gain1.png>]
 LaTeX Font Info:    Try loading font information for TS1+phv on input line 210.
 
 
 (/usr/local/texlive/2014/texmf-dist/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-) [8 <./images/gain2.png> <./images/gain3.png>] [9]
-
-LaTeX Warning: Reference `eq:main' on page 10 undefined on input line 270.
-
-<images/enrichment1.png, id=60, 490.83376pt x 198.7425pt>
+) [10 <./images/gain2.png> <./images/gain3.png>] [11]
+<images/enrichment1.png, id=67, 490.83376pt x 198.7425pt>
 File: images/enrichment1.png Graphic file (type png)
 
 <use images/enrichment1.png>
 Package pdftex.def Info: images/enrichment1.png used on input line 283.
 (pdftex.def)             Requested size: 333.81726pt x 135.1704pt.
 
-<images/enrichment2.png, id=61, 483.30562pt x 212.29312pt>
+<images/enrichment2.png, id=68, 483.30562pt x 212.29312pt>
 File: images/enrichment2.png Graphic file (type png)
 
 <use images/enrichment2.png>
 Package pdftex.def Info: images/enrichment2.png used on input line 289.
 (pdftex.def)             Requested size: 333.81726pt x 146.63466pt.
 
-<images/enricment3.png, id=62, 482.55281pt x 176.15813pt>
+<images/enricment3.png, id=69, 482.55281pt x 176.15813pt>
 File: images/enricment3.png Graphic file (type png)
 
 <use images/enricment3.png>
 Package pdftex.def Info: images/enricment3.png used on input line 295.
 (pdftex.def)             Requested size: 333.81726pt x 121.86641pt.
- [10] [11 <./images/enrichment1.png> <./images/enrichment2.png> <./images/enric
-ment3.png>]
-
-LaTeX Warning: Reference `subsec:achievements' on page 12 undefined on input li
-ne 312.
-
-[12]
+ [12] [13 <./images/enrichment1.png> <./images/enrichment2.png> <./images/enric
+ment3.png>] [14]
 Chapter 3.
-<images/sitemap.png, id=82, 1056.94875pt x 344.28625pt>
+<images/sitemap.png, id=88, 1056.94875pt x 344.28625pt>
 File: images/sitemap.png Graphic file (type png)
 
 <use images/sitemap.png>
 Package pdftex.def Info: images/sitemap.png used on input line 328.
 (pdftex.def)             Requested size: 417.26999pt x 135.92065pt.
- <images/nav.png, id=83, 1444.64719pt x 100.12407pt>
+ <images/nav.png, id=89, 1444.64719pt x 100.12407pt>
 File: images/nav.png Graphic file (type png)
 
 <use images/nav.png>
 Package pdftex.def Info: images/nav.png used on input line 337.
 (pdftex.def)             Requested size: 417.26999pt x 28.91911pt.
- [13
+ [15
 
  <./images/sitemap.png>]
-<images/homescreen.png, id=88, 1428.83812pt x 733.99219pt>
+<images/homescreen.png, id=94, 1428.83812pt x 733.99219pt>
 File: images/homescreen.png Graphic file (type png)
 
 <use images/homescreen.png>
@@ -692,18 +699,14 @@ Package pdftex.def Info: images/homescreen.png used on input line 363.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:homepage' on page 14 undefined on input line 368.
-
-
-<images/register.png, id=89, 571.38469pt x 621.07031pt>
+<images/register.png, id=95, 571.38469pt x 621.07031pt>
 File: images/register.png Graphic file (type png)
 
 <use images/register.png>
 Package pdftex.def Info: images/register.png used on input line 372.
 (pdftex.def)             Requested size: 208.635pt x 226.77881pt.
- [14 <./images/nav.png>]
-<images/worldmap.png, id=93, 1445.4pt x 813.0375pt>
+ [16 <./images/nav.png>]
+<images/worldmap.png, id=99, 1445.4pt x 813.0375pt>
 File: images/worldmap.png Graphic file (type png)
  <use images/worldmap.png>
 Package pdftex.def Info: images/worldmap.png used on input line 386.
@@ -712,14 +715,14 @@ Package pdftex.def Info: images/worldmap.png used on input line 386.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./images/homescreen.png> <./images/register.png>]
-<images/cali.png, id=97, 648.92438pt x 606.76688pt>
+[17 <./images/homescreen.png> <./images/register.png>]
+<images/cali.png, id=104, 648.92438pt x 606.76688pt>
 File: images/cali.png Graphic file (type png)
  <use images/cali.png>
 Package pdftex.def Info: images/cali.png used on input line 395.
 (pdftex.def)             Requested size: 166.90544pt x 156.06136pt.
 
-<images/mine.png, id=98, 1431.84938pt x 681.29532pt>
+<images/mine.png, id=105, 1431.84938pt x 681.29532pt>
 File: images/mine.png Graphic file (type png)
  <use images/mine.png>
 Package pdftex.def Info: images/mine.png used on input line 404.
@@ -728,8 +731,8 @@ Package pdftex.def Info: images/mine.png used on input line 404.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16 <./images/worldmap.png> <./images/cali.png>]
-<images/generalstore.png, id=102, 1428.83812pt x 730.98094pt>
+[18 <./images/worldmap.png> <./images/cali.png>]
+<images/generalstore.png, id=109, 1428.83812pt x 730.98094pt>
 File: images/generalstore.png Graphic file (type png)
 
 <use images/generalstore.png>
@@ -739,12 +742,8 @@ Package pdftex.def Info: images/generalstore.png used on input line 422.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig: generalstore' on page 17 undefined on input line
- 427.
-
-[17 <./images/mine.png>]
-<images/leaderboards.png, id=107, 1427.3325pt x 738.50906pt>
+[19 <./images/mine.png>]
+<images/leaderboards.png, id=113, 1427.3325pt x 738.50906pt>
 File: images/leaderboards.png Graphic file (type png)
 
 <use images/leaderboards.png>
@@ -754,12 +753,8 @@ Package pdftex.def Info: images/leaderboards.png used on input line 436.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig: leaderboards' on page 18 undefined on input line
- 441.
-
-[18 <./images/generalstore.png>]
-<images/tutorial.png, id=111, 1429.59094pt x 691.83469pt>
+[20 <./images/generalstore.png>]
+<images/tutorial.png, id=117, 1429.59094pt x 691.83469pt>
 File: images/tutorial.png Graphic file (type png)
 
 <use images/tutorial.png>
@@ -769,24 +764,20 @@ Package pdftex.def Info: images/tutorial.png used on input line 457.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/achievements.png, id=112, 1430.34375pt x 737.00343pt>
+<images/achievements.png, id=118, 1430.34375pt x 737.00343pt>
 File: images/achievements.png Graphic file (type png)
 
 <use images/achievements.png>
 Package pdftex.def Info: images/achievements.png used on input line 468.
 (pdftex.def)             Requested size: 500.7227pt x 258.00005pt.
 
-
-LaTeX Warning: Reference `fig: specialachievements' on page 19 undefined on inp
-ut line 473.
-
-<images/awesome.png, id=113, 34.1275pt x 34.1275pt>
+<images/awesome.png, id=119, 34.1275pt x 34.1275pt>
 File: images/awesome.png Graphic file (type png)
  <use images/awesome.png>
 Package pdftex.def Info: images/awesome.png used on input line 479.
 (pdftex.def)             Requested size: 66.76115pt x 66.76546pt.
 
-<images/banana.png, id=114, 34.1275pt x 34.1275pt>
+<images/banana.png, id=120, 34.1275pt x 34.1275pt>
 File: images/banana.png Graphic file (type png)
  <use images/banana.png>
 Package pdftex.def Info: images/banana.png used on input line 487.
@@ -795,7 +786,7 @@ Package pdftex.def Info: images/banana.png used on input line 487.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[19 <./images/leaderboards.png>] [20 <./images/tutorial.png> <./images/achievem
+[21 <./images/leaderboards.png>] [22 <./images/tutorial.png> <./images/achievem
 ents.png>]
 File: images/worldmap.png Graphic file (type png)
  <use images/worldmap.png>
@@ -805,36 +796,29 @@ File: images/cali.png Graphic file (type png)
  <use images/cali.png>
 Package pdftex.def Info: images/cali.png used on input line 519.
 (pdftex.def)             Requested size: 125.18227pt x 117.04602pt.
-
-
-LaTeX Warning: Reference `fig:two' on page 21 undefined on input line 533.
-
-[21 <./images/awesome.png> <./images/banana.png>]
-<images/two.png, id=126, 1437.11906pt x 730.98094pt>
+ [23 <./images/awesome.png> <./images/banana.png>]
+<images/two.png, id=133, 1437.11906pt x 730.98094pt>
 File: images/two.png Graphic file (type png)
  <use images/two.png>
-Package pdftex.def Info: images/two.png used on input line 546.
+Package pdftex.def Info: images/two.png used on input line 548.
 (pdftex.def)             Requested size: 187.77022pt x 95.49931pt.
 File: images/mine.png Graphic file (type png)
 
 <use images/mine.png>
-Package pdftex.def Info: images/mine.png used on input line 554.
+Package pdftex.def Info: images/mine.png used on input line 556.
 (pdftex.def)             Requested size: 208.635pt x 99.26869pt.
 
-
-LaTeX Warning: Reference `fig:mine' on page 22 undefined on input line 563.
-
-<images/endofday.png, id=127, 1425.82687pt x 742.27313pt>
+<images/endofday.png, id=134, 1425.82687pt x 742.27313pt>
 File: images/endofday.png Graphic file (type png)
 
 <use images/endofday.png>
-Package pdftex.def Info: images/endofday.png used on input line 584.
+Package pdftex.def Info: images/endofday.png used on input line 586.
 (pdftex.def)             Requested size: 250.36453pt x 130.33014pt.
 
-<images/bronze.png, id=128, 303.38344pt x 487.06969pt>
+<images/bronze.png, id=135, 303.38344pt x 487.06969pt>
 File: images/bronze.png Graphic file (type png)
  <use images/bronze.png>
-Package pdftex.def Info: images/bronze.png used on input line 590.
+Package pdftex.def Info: images/bronze.png used on input line 592.
 (pdftex.def)             Requested size: 83.45271pt x 133.97801pt.
 
 
@@ -842,96 +826,79 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: images/generalstore.png Graphic file (type png)
 <use images/generalstore.png>
-Package pdftex.def Info: images/generalstore.png used on input line 606.
+Package pdftex.def Info: images/generalstore.png used on input line 608.
 (pdftex.def)             Requested size: 250.36453pt x 128.07973pt.
 
-<images/nogold.png, id=129, 301.8778pt x 183.68625pt>
+<images/nogold.png, id=136, 301.8778pt x 183.68625pt>
 File: images/nogold.png Graphic file (type png)
  <use images/nogold.png>
-Package pdftex.def Info: images/nogold.png used on input line 612.
+Package pdftex.def Info: images/nogold.png used on input line 614.
 (pdftex.def)             Requested size: 125.18227pt x 76.1695pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[22 <./images/two.png>] <images/yukon.png, id=133, 1437.11906pt x 730.98094pt>
+[24 <./images/two.png>] <images/yukon.png, id=140, 1437.11906pt x 730.98094pt>
 File: images/yukon.png Graphic file (type png)
 
 <use images/yukon.png>
-Package pdftex.def Info: images/yukon.png used on input line 622.
+Package pdftex.def Info: images/yukon.png used on input line 624.
 (pdftex.def)             Requested size: 250.36453pt x 127.34358pt.
- <images/yuki.png, id=134, 557.83406pt x 536.75531pt>
+ <images/yuki.png, id=141, 557.83406pt x 536.75531pt>
 File: images/yuki.png Graphic file (type png)
 
 <use images/yuki.png>
-Package pdftex.def Info: images/yuki.png used on input line 628.
+Package pdftex.def Info: images/yuki.png used on input line 630.
 (pdftex.def)             Requested size: 125.18227pt x 120.44531pt.
 
-<images/gameover.png, id=135, 1443.14156pt x 732.48656pt>
+<images/gameover.png, id=142, 1443.14156pt x 732.48656pt>
 File: images/gameover.png Graphic file (type png)
 
 <use images/gameover.png>
-Package pdftex.def Info: images/gameover.png used on input line 635.
+Package pdftex.def Info: images/gameover.png used on input line 637.
 (pdftex.def)             Requested size: 417.26999pt x 211.78975pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/architecture.png, id=136, 836.12375pt x 229.85875pt>
+<images/architecture.png, id=143, 836.12375pt x 229.85875pt>
 File: images/architecture.png Graphic file (type png)
 
 <use images/architecture.png>
-Package pdftex.def Info: images/architecture.png used on input line 644.
+Package pdftex.def Info: images/architecture.png used on input line 646.
 (pdftex.def)             Requested size: 417.26999pt x 114.71513pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `subsec:Django' on page 23 undefined on input line 648
-.
-
-[23 <./images/endofday.png> <./images/bronze.png> <./images/nogold.png> <./imag
+[25 <./images/endofday.png> <./images/bronze.png> <./images/nogold.png> <./imag
 es/yukon.png> <./images/yuki.png>]
-<images/er.png, id=141, 857.2025pt x 756.8275pt>
+<images/er.png, id=147, 857.2025pt x 756.8275pt>
 File: images/er.png Graphic file (type png)
  <use images/er.png>
-Package pdftex.def Info: images/er.png used on input line 653.
+Package pdftex.def Info: images/er.png used on input line 655.
 (pdftex.def)             Requested size: 292.0877pt x 257.8838pt.
- [24 <./images/gameover.png> <./images/architecture.png>]
+ [26 <./images/gameover.png> <./images/architecture.png>]
 
-LaTeX Warning: Reference `subsec:code' on page 25 undefined on input line 661.
-
-
-LaTeX Warning: Reference `subsec:code' on page 25 undefined on input line 663.
-
-[25 <./images/er.png>]
-
-LaTeX Warning: Reference `subsec:boot' on page 26 undefined on input line 679.
+LaTeX Warning: Reference `subsec:code' on page 27 undefined on input line 663.
 
 
-LaTeX Warning: Reference `app: firstapp' on page 26 undefined on input line 685
+LaTeX Warning: Reference `subsec:code' on page 27 undefined on input line 665.
+
+[27 <./images/er.png>]
+
+LaTeX Warning: Reference `app: firstapp' on page 28 undefined on input line 687
 .
 
 
-LaTeX Warning: Reference `app: firstapp' on page 26 undefined on input line 689
+LaTeX Warning: Reference `app: firstapp' on page 28 undefined on input line 691
 .
 
-[26]
+[28]
 Chapter 4.
-[27
+[29
 
-] [28] [29]
-
-LaTeX Warning: Reference `subsec:Django' on page 30 undefined on input line 737
-.
-
-
-LaTeX Warning: Reference `subsec:AJAX' on page 30 undefined on input line 737.
-
-
-LaTeX Warning: Reference `subsec:JS' on page 30 undefined on input line 737.
-
+] [30] [31]
 (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
@@ -939,12 +906,12 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 File: lstmisc.sty 2014/03/04 1.5c (Carsten Heinz)
 )
 (./custom.css)
-Underfull \hbox (badness 10000) in paragraph at lines 749--753
+Underfull \hbox (badness 10000) in paragraph at lines 751--755
 
  []
 
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 764--768
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 766--770
 
  []
 
@@ -955,42 +922,31 @@ File: lstlang1.sty 2014/03/04 1.5c listings language file
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <8> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 2.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 773--777
+Underfull \hbox (badness 10000) in paragraph at lines 775--779
 
  []
 
-[31] [32] (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
+[33] [34] (/usr/local/texlive/2014/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2014/03/04 1.5c listings language file
 )
-(./yieldgen.py)
-
-LaTeX Warning: Reference `app:firstapp' on page 33 undefined on input line 807.
-
-
-[33] <images/span.png, id=176, 1157.32375pt x 96.36pt>
+(./yieldgen.py) [35] <images/span.png, id=183, 1157.32375pt x 96.36pt>
 File: images/span.png Graphic file (type png)
- <use images/span.png>
-Package pdftex.def Info: images/span.png used on input line 818.
+
+<use images/span.png>
+Package pdftex.def Info: images/span.png used on input line 820.
 (pdftex.def)             Requested size: 417.26999pt x 34.7425pt.
 
-<images/classdiagram.png, id=177, 795.97375pt x 1182.4175pt>
+<images/classdiagram.png, id=184, 795.97375pt x 1182.4175pt>
 File: images/classdiagram.png Graphic file (type png)
 
 <use images/classdiagram.png>
-Package pdftex.def Info: images/classdiagram.png used on input line 839.
+Package pdftex.def Info: images/classdiagram.png used on input line 841.
 (pdftex.def)             Requested size: 417.26999pt x 619.84029pt.
- [34 <./images/span.png>]
-
-LaTeX Warning: Reference `' on page 35 undefined on input line 851.
-
-(./game2.html) (./views.py) [35] (./views.py
+ [36 <./images/span.png>] (./game2.html)
+(./views.py) [37] (./views.py
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 541.
-) (./views.py)
-
-LaTeX Warning: Reference `subsec:JS' on page 36 undefined on input line 877.
-
-(./dig-ajax.js
+) (./views.py) (./dig-ajax.js
 Overfull \hbox (38.73465pt too wide) in paragraph at lines 74--75
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
@@ -1002,126 +958,98 @@ Overfull \hbox (29.13455pt too wide) in paragraph at lines 78--79
 ][][][][][][][][][][][][][] 
  []
 
-) [36]
-
-LaTeX Warning: Reference `subsec:creatingmines' on page 37 undefined on input l
-ine 904.
-
-
-LaTeX Warning: Reference `sec:ER' on page 37 undefined on input line 916.
-
-[37] [38 <./images/classdiagram.png>]
+) [38] [39] [40 <./images/classdiagram.png>]
 Chapter 5.
-
-LaTeX Warning: Reference `subsec:IFT' on page 39 undefined on input line 927.
-
 (./log_LOC_NLOC.txt
 Overfull \hbox (19.53445pt too wide) in paragraph at lines 4869--4870
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][] 
  []
 
-) [39
+) [41
 
-] <images/movingaccuracy.png, id=198, 455.55911pt x 256.8166pt>
+] <images/movingaccuracy.png, id=205, 455.55911pt x 256.8166pt>
 File: images/movingaccuracy.png Graphic file (type png)
 
 <use images/movingaccuracy.png>
-Package pdftex.def Info: images/movingaccuracy.png used on input line 952.
+Package pdftex.def Info: images/movingaccuracy.png used on input line 954.
 (pdftex.def)             Requested size: 417.26999pt x 235.24352pt.
 
-<images/absolute.png, id=199, 455.55911pt x 256.17134pt>
+<images/absolute.png, id=206, 455.55911pt x 256.17134pt>
 File: images/absolute.png Graphic file (type png)
 
 <use images/absolute.png>
-Package pdftex.def Info: images/absolute.png used on input line 960.
+Package pdftex.def Info: images/absolute.png used on input line 962.
 (pdftex.def)             Requested size: 375.54044pt x 211.1837pt.
-
-
-LaTeX Warning: Reference `fig:absolute' on page 40 undefined on input line 966.
-
-
-<images/scan.png, id=200, 455.55911pt x 256.17134pt>
+ <images/scan.png, id=207, 455.55911pt x 256.17134pt>
 File: images/scan.png Graphic file (type png)
- <use images/scan.png>
-Package pdftex.def Info: images/scan.png used on input line 974.
+
+<use images/scan.png>
+Package pdftex.def Info: images/scan.png used on input line 976.
 (pdftex.def)             Requested size: 375.54044pt x 211.1837pt.
-
-
-LaTeX Warning: Reference `fig:scan' on page 40 undefined on input line 979.
-
-
-LaTeX Warning: Reference `fig:digc' on page 40 undefined on input line 983.
-
-[40 <./images/movingaccuracy.png (PNG copy)>]
-<images/digc.png, id=204, 455.55911pt x 256.17134pt>
+ [42 <./images/movingaccuracy.png (PNG copy)>]
+<images/digc.png, id=211, 455.55911pt x 256.17134pt>
 File: images/digc.png Graphic file (type png)
  <use images/digc.png>
-Package pdftex.def Info: images/digc.png used on input line 987.
+Package pdftex.def Info: images/digc.png used on input line 989.
 (pdftex.def)             Requested size: 375.54044pt x 211.1837pt.
 
-
-LaTeX Warning: Reference `fig:movec' on page 41 undefined on input line 994.
-
-[41 <./images/absolute.png (PNG copy)> <./images/scan.png (PNG copy)>]
-<images/movec.png, id=209, 455.55911pt x 256.17134pt>
+[43 <./images/absolute.png (PNG copy)> <./images/scan.png (PNG copy)>]
+<images/movec.png, id=215, 455.55911pt x 256.17134pt>
 File: images/movec.png Graphic file (type png)
  <use images/movec.png>
-Package pdftex.def Info: images/movec.png used on input line 998.
+Package pdftex.def Info: images/movec.png used on input line 1000.
 (pdftex.def)             Requested size: 375.54044pt x 211.1837pt.
 
-[42 <./images/digc.png (PNG copy)> <./images/movec.png (PNG copy)>]
-
-LaTeX Warning: Reference `subsec:OFT' on page 43 undefined on input line 1011.
-
-[43] [44]
+[44 <./images/digc.png (PNG copy)> <./images/movec.png (PNG copy)>] [45]
+[46]
 Chapter 6.
-[45
+[47
 
 ]
-Overfull \hbox (63.26566pt too wide) in paragraph at lines 1067--1068
+Overfull \hbox (63.26566pt too wide) in paragraph at lines 1069--1070
 []\T1/phv/b/n/10 Animate.css \T1/phv/m/n/10 (Ver-sion 3.2.0) [CSS3 Plu-gin], by
  Daniel Eden avail-able at: http://daneden.github.io/animate.css/ 
  []
 
 
-Overfull \hbox (16.55453pt too wide) in paragraph at lines 1069--1070
+Overfull \hbox (16.55453pt too wide) in paragraph at lines 1071--1072
 []\T1/phv/b/n/10 AnimateNumbers.js \T1/phv/m/n/10 [Javascript Plu-gin] by tal-m
 and avail-able at: https://github.com/talmand/jquery-
  []
 
 
-Overfull \hbox (43.06451pt too wide) in paragraph at lines 1073--1074
+Overfull \hbox (43.06451pt too wide) in paragraph at lines 1075--1076
 []\T1/phv/b/n/10 Photoshop CS6 \T1/phv/m/n/10 [Im-age Edit-ing Soft-ware] avail
 -able at http://www.adobe.com/uk/products/photoshop.html 
  []
 
-[46]
+[48]
 Appendix A.
-[47
+[49
 
 ]
 Appendix B.
-(./mproj.bbl [48
+(./mproj.bbl [50
 
 ]
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
-) [49
+) [51
 
 ] (./mproj.aux)
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8686 strings out of 493117
- 126970 string characters out of 6135433
- 242258 words of memory out of 5000000
+ 8690 strings out of 493117
+ 127010 string characters out of 6135433
+ 243771 words of memory out of 5000000
  11931 multiletter control sequences out of 15000+600000
  56836 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1140,10 +1068,10 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2014/texmf
 ist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2014/texmf-dist/fon
 ts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2014/texmf-dist/fonts/type
 1/urw/helvetic/uhvro8a.pfb>
-Output written on mproj.pdf (51 pages, 20159629 bytes).
+Output written on mproj.pdf (53 pages, 20166941 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 287 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  196 words of extra memory for PDF output out of 10000 (max. 10000000)
 
